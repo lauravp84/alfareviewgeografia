@@ -4,373 +4,902 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AlfaReview Geografia - 5º Ano</title>
-    <meta name="description" content="Plataforma educacional para Geografia do 5º ano com mapas mentais e questões">
-    
-    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/animations.css">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/stitch/Unidade1.png">
 </head>
 <body>
-    <!-- Tela Principal -->
-    <div id="main-screen" class="screen active">
-        <!-- Barra Lateral de Navegação -->
-        <nav id="sidebar" class="sidebar">
-            <div class="sidebar-header">
-                <h2>📘 AlfaReview Geografia</h2>
-                <button id="sidebar-toggle" class="sidebar-toggle">☰</button>
-            </div>
+    <!-- Navegação Lateral -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2>📘 AlfaReview Geografia</h2>
+            <button class="close-sidebar" onclick="closeSidebar()">✕</button>
+        </div>
+        
+        <div class="nav-menu">
+            <button class="nav-item active" id="home-btn" onclick="showHome()">
+                🏠 Início
+            </button>
             
-            <div class="sidebar-content">
-                <ul class="nav-menu">
-                    <li><a href="#" id="home-btn" class="nav-item active">🏠 Início</a></li>
-                    <li class="nav-divider">📂 Unidades</li>
-                    <li><a href="#" data-unit="1" class="nav-item unit-nav">📍 Demografia</a></li>
-                    <li><a href="#" data-unit="2" class="nav-item unit-nav">🗺️ Formação do Território</a></li>
-                    <li><a href="#" data-unit="3" class="nav-item unit-nav">⚒️ Trabalho e Transformações</a></li>
-                    <li><a href="#" data-unit="4" class="nav-item unit-nav">🌆 Espaço Urbano</a></li>
-                    <li><a href="#" data-unit="5" class="nav-item unit-nav">🚀 Mobilidade e Redes</a></li>
-                    <li><a href="#" data-unit="6" class="nav-item unit-nav">🌳 Matriz Energética</a></li>
-                </ul>
+            <div class="nav-section">
+                <h3>📚 Unidades</h3>
+                <button class="nav-item" data-unit="1" onclick="openUnit(1)">
+                    📊 Unidade 1 - Demografia
+                </button>
+                <button class="nav-item" data-unit="2" onclick="openUnit(2)">
+                    🗺️ Unidade 2 - Formação do Território
+                </button>
+                <button class="nav-item" data-unit="3" onclick="openUnit(3)">
+                    ⚒️ Unidade 3 - Trabalho e Transformações
+                </button>
+                <button class="nav-item" data-unit="4" onclick="openUnit(4)">
+                    🌆 Unidade 4 - Espaço Urbano
+                </button>
+                <button class="nav-item" data-unit="5" onclick="openUnit(5)">
+                    🚀 Unidade 5 - Mobilidade e Redes
+                </button>
+                <button class="nav-item" data-unit="6" onclick="openUnit(6)">
+                    🌳 Unidade 6 - Matriz Energética
+                </button>
             </div>
-        </nav>
+        </div>
+    </nav>
 
-        <!-- Conteúdo Principal -->
-        <main id="main-content" class="main-content">
-            <!-- Página Inicial -->
-            <div id="home-page" class="page active">
-                <header class="page-header">
-                    <div class="stitch-container">
-                        <img src="assets/stitch/Unidade1.png" alt="Stitch" id="main-stitch" class="stitch-main">
-                        <div class="speech-bubble" id="stitch-speech">
-                            <p>Olá! Vamos estudar Geografia de um jeito divertido? Escolha uma unidade!</p>
-                        </div>
-                    </div>
-                    <h1>Geografia - 5º Ano</h1>
-                </header>
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+        <!-- Header -->
+        <header class="header">
+            <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
+            <h1>AlfaReview Geografia</h1>
+            <div class="header-stitch">
+                <img src="assets/stitch/Unidade1.png" alt="Stitch" class="header-stitch-img" onclick="stitchSpeak()">
+            </div>
+        </header>
 
-                <section class="units-grid">
-                    <div class="unit-card" data-unit="1">
-                        <div class="unit-image">
-                            <img src="assets/stitch/Unidade1.png" alt="Stitch Demografia">
-                        </div>
-                        <div class="unit-content">
-                            <h3>Unidade 1</h3>
-                            <h4>Demografia</h4>
-                            <p>Estudo da população brasileira</p>
-                            <button class="btn-unit">Estudar</button>
-                        </div>
+        <!-- Página Inicial -->
+        <div class="page active" id="home-page">
+            <div class="welcome-section">
+                <div class="stitch-welcome">
+                    <img src="assets/stitch/Unidade1.png" alt="Stitch" class="stitch-main" onclick="stitchWelcome()">
+                    <div class="speech-bubble" id="stitch-speech">
+                        "Oi! Eu sou o Stitch. Vamos estudar Geografia de um jeito divertido?"
                     </div>
-
-                    <div class="unit-card" data-unit="2">
-                        <div class="unit-image">
-                            <img src="assets/stitch/Unidade2.png" alt="Stitch Território">
-                        </div>
-                        <div class="unit-content">
-                            <h3>Unidade 2</h3>
-                            <h4>Formação do Território</h4>
-                            <p>Como o Brasil se formou geograficamente</p>
-                            <button class="btn-unit">Estudar</button>
-                        </div>
-                    </div>
-
-                    <div class="unit-card" data-unit="3">
-                        <div class="unit-image">
-                            <img src="assets/stitch/Unidade3.png" alt="Stitch Trabalho">
-                        </div>
-                        <div class="unit-content">
-                            <h3>Unidade 3</h3>
-                            <h4>Trabalho e Transformações</h4>
-                            <p>Como o trabalho transforma o espaço</p>
-                            <button class="btn-unit">Estudar</button>
-                        </div>
-                    </div>
-
-                    <div class="unit-card" data-unit="4">
-                        <div class="unit-image">
-                            <img src="assets/stitch/Unidade4.png" alt="Stitch Urbano">
-                        </div>
-                        <div class="unit-content">
-                            <h3>Unidade 4</h3>
-                            <h4>Espaço Urbano</h4>
-                            <p>Urbanização e crescimento das cidades</p>
-                            <button class="btn-unit">Estudar</button>
-                        </div>
-                    </div>
-
-                    <div class="unit-card" data-unit="5">
-                        <div class="unit-image">
-                            <img src="assets/stitch/Unidade5.png" alt="Stitch Mobilidade">
-                        </div>
-                        <div class="unit-content">
-                            <h3>Unidade 5</h3>
-                            <h4>Mobilidade e Redes</h4>
-                            <p>Transporte e comunicação no Brasil</p>
-                            <button class="btn-unit">Estudar</button>
-                        </div>
-                    </div>
-
-                    <div class="unit-card" data-unit="6">
-                        <div class="unit-image">
-                            <img src="assets/stitch/Unidade6.png" alt="Stitch Energia">
-                        </div>
-                        <div class="unit-content">
-                            <h3>Unidade 6</h3>
-                            <h4>Matriz Energética</h4>
-                            <p>Fontes de energia renováveis e não renováveis</p>
-                            <button class="btn-unit">Estudar</button>
-                        </div>
-                    </div>
-                </section>
+                </div>
             </div>
 
-            <!-- Página da Unidade -->
-            <div id="unit-page" class="page">
-                <header class="unit-header">
-                    <button id="back-to-home" class="btn-back">← Voltar</button>
-                    <h1 id="unit-title">Unidade</h1>
-                </header>
+            <div class="progress-panel">
+                <h2>📊 Seu Progresso</h2>
+                <div class="overall-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" id="total-points">0</span>
+                        <span class="stat-label">Pontos Totais</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="total-medals">0</span>
+                        <span class="stat-label">Medalhas</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="total-accessories">0</span>
+                        <span class="stat-label">Acessórios</span>
+                    </div>
+                </div>
+            </div>
 
-                <div class="unit-content-wrapper">
-                    <div class="stitch-unit-container">
-                        <img id="unit-stitch" src="" alt="Stitch" class="stitch-unit">
-                        <div class="speech-bubble" id="unit-stitch-speech">
-                            <p>Vamos explorar esta unidade juntos!</p>
+            <div class="units-grid">
+                <div class="unit-card" onclick="openUnit(1)">
+                    <div class="unit-header">
+                        <img src="assets/stitch/Unidade1.png" alt="Stitch Demografia" class="unit-stitch">
+                        <h3>Unidade 1</h3>
+                    </div>
+                    <h4>Demografia</h4>
+                    <div class="unit-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progress-1" style="width: 0%"></div>
+                        </div>
+                        <div class="unit-stats">
+                            <span class="stars" id="stars-1">☆☆☆</span>
+                            <span class="medal" id="medal-1">—</span>
+                        </div>
+                    </div>
+                    <button class="reset-btn" onclick="resetUnit(1, event)">🔄 Recomeçar</button>
+                </div>
+
+                <div class="unit-card" onclick="openUnit(2)">
+                    <div class="unit-header">
+                        <img src="assets/stitch/Unidade2.png" alt="Stitch Território" class="unit-stitch">
+                        <h3>Unidade 2</h3>
+                    </div>
+                    <h4>Formação do Território Brasileiro</h4>
+                    <div class="unit-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progress-2" style="width: 0%"></div>
+                        </div>
+                        <div class="unit-stats">
+                            <span class="stars" id="stars-2">☆☆☆</span>
+                            <span class="medal" id="medal-2">—</span>
+                        </div>
+                    </div>
+                    <button class="reset-btn" onclick="resetUnit(2, event)">🔄 Recomeçar</button>
+                </div>
+
+                <div class="unit-card" onclick="openUnit(3)">
+                    <div class="unit-header">
+                        <img src="assets/stitch/Unidade3.png" alt="Stitch Trabalho" class="unit-stitch">
+                        <h3>Unidade 3</h3>
+                    </div>
+                    <h4>Trabalho e Transformações Espaciais</h4>
+                    <div class="unit-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progress-3" style="width: 0%"></div>
+                        </div>
+                        <div class="unit-stats">
+                            <span class="stars" id="stars-3">☆☆☆</span>
+                            <span class="medal" id="medal-3">—</span>
+                        </div>
+                    </div>
+                    <button class="reset-btn" onclick="resetUnit(3, event)">🔄 Recomeçar</button>
+                </div>
+
+                <div class="unit-card" onclick="openUnit(4)">
+                    <div class="unit-header">
+                        <img src="assets/stitch/Unidade4.png" alt="Stitch Urbano" class="unit-stitch">
+                        <h3>Unidade 4</h3>
+                    </div>
+                    <h4>Espaço Urbano: Urbanização e Crescimento das Cidades</h4>
+                    <div class="unit-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progress-4" style="width: 0%"></div>
+                        </div>
+                        <div class="unit-stats">
+                            <span class="stars" id="stars-4">☆☆☆</span>
+                            <span class="medal" id="medal-4">—</span>
+                        </div>
+                    </div>
+                    <button class="reset-btn" onclick="resetUnit(4, event)">🔄 Recomeçar</button>
+                </div>
+
+                <div class="unit-card" onclick="openUnit(5)">
+                    <div class="unit-header">
+                        <img src="assets/stitch/Unidade5.png" alt="Stitch Mobilidade" class="unit-stitch">
+                        <h3>Unidade 5</h3>
+                    </div>
+                    <h4>Mobilidade e Redes de Transporte e Comunicação</h4>
+                    <div class="unit-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progress-5" style="width: 0%"></div>
+                        </div>
+                        <div class="unit-stats">
+                            <span class="stars" id="stars-5">☆☆☆</span>
+                            <span class="medal" id="medal-5">—</span>
+                        </div>
+                    </div>
+                    <button class="reset-btn" onclick="resetUnit(5, event)">🔄 Recomeçar</button>
+                </div>
+
+                <div class="unit-card" onclick="openUnit(6)">
+                    <div class="unit-header">
+                        <img src="assets/stitch/Unidade6.png" alt="Stitch Energia" class="unit-stitch">
+                        <h3>Unidade 6</h3>
+                    </div>
+                    <h4>Matriz Energética Brasileira: Fontes Renováveis e Não Renováveis</h4>
+                    <div class="unit-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progress-6" style="width: 0%"></div>
+                        </div>
+                        <div class="unit-stats">
+                            <span class="stars" id="stars-6">☆☆☆</span>
+                            <span class="medal" id="medal-6">—</span>
+                        </div>
+                    </div>
+                    <button class="reset-btn" onclick="resetUnit(6, event)">🔄 Recomeçar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Página da Unidade -->
+        <div class="page" id="unit-page">
+            <div class="unit-header-section">
+                <button class="back-btn" onclick="showHome()">← Voltar</button>
+                <h1 id="unit-title">Unidade</h1>
+                <div class="unit-stitch-container">
+                    <img src="assets/stitch/Unidade1.png" alt="Stitch" id="unit-stitch" onclick="stitchExplain()">
+                    <div class="stitch-tooltip" id="stitch-tooltip">Clique em mim para uma explicação!</div>
+                </div>
+            </div>
+
+            <div class="tabs-container">
+                <div class="tabs-nav">
+                    <button class="tab-btn active" onclick="showTab('mindmap', this)">
+                        📊 Mapa Mental
+                    </button>
+                    <button class="tab-btn" onclick="showTab('review', this)">
+                        📖 Revisão
+                    </button>
+                    <button class="tab-btn" onclick="showTab('questions', this)">
+                        ❓ Questões
+                    </button>
+                </div>
+
+                <div class="tab-content">
+                    <!-- Aba Mapa Mental -->
+                    <div class="tab-panel active" id="mindmap-tab">
+                        <div class="mindmap-container">
+                            <img src="assets/mindmaps/mapa_unidade_1.png" alt="Mapa Mental" id="mindmap-image" class="mindmap-image">
                         </div>
                     </div>
 
-                    <div class="unit-tabs">
-                        <button class="tab-btn active" data-tab="mindmap">📊 Mapa Mental</button>
-                        <button class="tab-btn" data-tab="content">📖 Revisão</button>
-                        <button class="tab-btn" data-tab="questions">❓ Questões</button>
+                    <!-- Aba Revisão -->
+                    <div class="tab-panel" id="review-tab">
+                        <div id="review-content">
+                            <h3>📖 Conteúdo de Revisão</h3>
+                            <p>Carregando conteúdo...</p>
+                        </div>
                     </div>
 
-                    <div class="tab-content">
-                        <!-- Aba Mapa Mental -->
-                        <div id="mindmap-tab" class="tab-panel active">
-                            <div class="mindmap-container">
-                                <img id="mindmap-image" src="" alt="Mapa Mental" class="mindmap-img">
-                            </div>
+                    <!-- Aba Questões -->
+                    <div class="tab-panel" id="questions-tab">
+                        <div class="questions-header">
+                            <button class="review-content-btn" onclick="openReviewPanel()">
+                                🔄 Revisar Conteúdo
+                            </button>
                         </div>
-
-                        <!-- Aba Conteúdo de Revisão -->
-                        <div id="content-tab" class="tab-panel">
-                            <div class="content-container">
-                                <div id="review-content">
-                                    <p>Carregando conteúdo de revisão...</p>
+                        <div id="questions-content">
+                            <h3>❓ Questões Interativas</h3>
+                            <p>Carregando questões...</p>
+                        </div>
+                        <div class="questions-results" id="questions-results" style="display: none;">
+                            <h3>🎉 Parabéns! Você terminou!</h3>
+                            <div class="final-score">
+                                <div class="score-item">
+                                    <span class="score-label">Acertos:</span>
+                                    <span class="score-value" id="final-correct">0</span>
+                                </div>
+                                <div class="score-item">
+                                    <span class="score-label">Total:</span>
+                                    <span class="score-value" id="final-total">0</span>
+                                </div>
+                                <div class="score-item">
+                                    <span class="score-label">Porcentagem:</span>
+                                    <span class="score-value" id="final-percentage">0%</span>
                                 </div>
                             </div>
-                        </div>
-
-                        <!-- Aba Questões -->
-                        <div id="questions-tab" class="tab-panel">
-                            <div class="questions-container">
-                                <div id="questions-content">
-                                    <p>Carregando questões...</p>
+                            <div class="rewards-section">
+                                <div class="stars-earned" id="stars-earned">⭐⭐⭐</div>
+                                <div class="medal-earned" id="medal-earned">🥇 Medalha Conquistada!</div>
+                                <div class="accessory-earned" id="accessory-earned" style="display: none;">
+                                    🎁 Novo acessório desbloqueado!
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </main>
+        </div>
+    </main>
+
+    <!-- Painel de Revisão Lateral -->
+    <div class="review-panel" id="review-panel">
+        <div class="review-panel-header">
+            <h3>🔄 Revisar Conteúdo</h3>
+            <button class="close-panel" onclick="closeReviewPanel()">✕</button>
+        </div>
+        <div class="review-panel-content">
+            <div class="review-mindmap">
+                <img src="assets/mindmaps/mapa_unidade_1.png" alt="Mapa Mental" id="review-mindmap-image">
+            </div>
+            <div class="review-text" id="review-panel-text">
+                <p>Conteúdo de revisão aparecerá aqui...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal do Stitch -->
+    <div class="stitch-modal" id="stitch-modal">
+        <div class="stitch-modal-content">
+            <div class="stitch-character">
+                <img src="assets/stitch/Unidade1.png" alt="Stitch" id="modal-stitch">
+            </div>
+            <div class="stitch-message" id="stitch-message">
+                Mensagem do Stitch aparecerá aqui!
+            </div>
+            <button class="stitch-close" onclick="closeStitchModal()">OK</button>
+        </div>
     </div>
 
     <!-- Overlay -->
-    <div id="overlay" class="overlay"></div>
+    <div class="overlay" id="overlay" onclick="closeOverlays()"></div>
 
-    <!-- JavaScript Simplificado -->
+    <!-- JavaScript -->
+    <script src="assets/js/content-data.js"></script>
+    <script src="assets/js/all-questions.js"></script>
     <script>
-        // Aplicação Simplificada
-        class SimpleGeografiaApp {
-            constructor() {
-                this.currentUnit = null;
-                this.sidebarOpen = false;
-                this.init();
-            }
+        // Variáveis globais
+        let currentUnit = null;
+        let currentQuestionIndex = 0;
+        let questionsData = [];
+        let userAnswers = [];
+        let gameStats = {
+            totalPoints: 0,
+            unitsCompleted: 0,
+            medals: [],
+            accessories: []
+        };
 
-            init() {
-                this.bindEvents();
-                this.setupResponsive();
-            }
+        // Dados das medalhas por unidade
+        const UNIT_MEDALS = {
+            1: { name: "Detetive Demográfico", icon: "🕵️" },
+            2: { name: "Explorador Histórico", icon: "🧭" },
+            3: { name: "Trabalhador Curioso", icon: "⚒️" },
+            4: { name: "Urbanista Mirim", icon: "🌆" },
+            5: { name: "Viajante das Redes", icon: "🚀" },
+            6: { name: "Guardião da Amazônia", icon: "🌳" }
+        };
 
-            bindEvents() {
-                // Navegação das unidades
-                document.querySelectorAll('.unit-nav').forEach(nav => {
-                    nav.addEventListener('click', (e) => {
-                        e.preventDefault();
-                        const unitId = parseInt(nav.dataset.unit);
-                        this.openUnit(unitId);
-                    });
-                });
+        // Frases do Stitch por unidade
+        const STITCH_EXPLANATIONS = {
+            1: "Demografia é contar quem vive num lugar. Tipo a galera da turma 502 no Recreio!",
+            2: "Território é o nosso pedacinho do mundo! O Brasil é gigante, né?",
+            3: "Trabalho é tudo que as pessoas fazem para viver melhor. Igual a Tia Roberta ensinando!",
+            4: "Urbanização é quando a cidade cresce! Igual quando começaram a construir um monte de prédios no bairro!",
+            5: "Mobilidade é como a gente se move! De ônibus, carro, bicicleta... até nave espacial!",
+            6: "Energia solar vem do sol e não acaba nunca! É limpa, do jeitinho que a Tia Roberta explicou!"
+        };
 
-                // Botões das unidades na página inicial
-                document.querySelectorAll('.btn-unit').forEach(btn => {
-                    btn.addEventListener('click', (e) => {
-                        const card = e.target.closest('.unit-card');
-                        const unitId = parseInt(card.dataset.unit);
-                        this.openUnit(unitId);
-                    });
-                });
+        // Frases de feedback do Stitch
+        const STITCH_FEEDBACK = {
+            correct: [
+                "Oba! Acertei junto com você!",
+                "Tia Roberta vai ficar orgulhosa!",
+                "Você tá virando um craque da Geografia!",
+                "Isso aí! Mandou bem!"
+            ],
+            incorrect: [
+                "Ai ai ai… a Tia Roberta ia pedir pra revisar!",
+                "Não foi dessa vez, mas você vai conseguir!",
+                "Vamos revisar esse conceito juntos!",
+                "Todo mundo erra às vezes, o importante é aprender!"
+            ]
+        };
 
-                // Botão voltar
-                document.getElementById('back-to-home').addEventListener('click', () => {
-                    this.showHome();
-                });
+        // Dicas educativas por conceito
+        const EDUCATIONAL_TIPS = {
+            "êxodo rural": "Lembra que a Tia Roberta explicou? O êxodo rural é quando as pessoas saem do campo e vão morar na cidade. Igual aconteceu no Recreio quando os sítios viraram prédios!",
+            "densidade demográfica": "Densidade demográfica é quantas pessoas moram em cada pedacinho de terra. Tipo contar quantos alunos tem na nossa sala!",
+            "urbanização": "Urbanização é quando as cidades crescem e ficam maiores. Como quando constroem novos prédios no bairro!",
+            "população": "População é toda a galera que mora num lugar. Pode ser na cidade, no estado ou no país inteiro!",
+            "território": "Território é como se fosse a casa do país. O Brasil tem uma casa bem grande!",
+            "energia renovável": "Energia renovável é aquela que não acaba nunca, como a do sol e do vento. É limpinha e não polui!"
+        };
 
-                // Botão home
-                document.getElementById('home-btn').addEventListener('click', (e) => {
-                    e.preventDefault();
-                    this.showHome();
-                });
+        // Inicialização
+        document.addEventListener('DOMContentLoaded', function() {
+            loadGameData();
+            updateProgressDisplay();
+            stitchWelcome();
+        });
 
-                // Abas da unidade
-                document.querySelectorAll('.tab-btn').forEach(btn => {
-                    btn.addEventListener('click', () => {
-                        const tabName = btn.dataset.tab;
-                        this.showTab(tabName);
-                        this.setActiveTab(btn);
-                    });
-                });
+        // Funções de navegação
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('overlay');
+            sidebar.classList.toggle('active');
+            overlay.classList.toggle('active');
+        }
 
-                // Toggle sidebar (mobile)
-                document.getElementById('sidebar-toggle').addEventListener('click', () => {
-                    this.toggleSidebar();
-                });
+        function closeSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('overlay');
+            sidebar.classList.remove('active');
+            overlay.classList.remove('active');
+        }
 
-                // Overlay
-                document.getElementById('overlay').addEventListener('click', () => {
-                    this.closeSidebar();
-                });
-            }
+        function closeOverlays() {
+            closeSidebar();
+            closeReviewPanel();
+            closeStitchModal();
+        }
 
-            openUnit(unitId) {
-                this.currentUnit = unitId;
-                this.loadUnitContent(unitId);
-                this.showPage('unit');
-                this.updateNavigation(unitId);
-            }
+        function showHome() {
+            showPage('home');
+            currentUnit = null;
+            updateNavigation();
+            updateProgressDisplay();
+        }
 
-            loadUnitContent(unitId) {
-                const unitTitles = {
-                    1: 'Demografia',
-                    2: 'Formação do Território Brasileiro',
-                    3: 'Trabalho e Transformações Espaciais',
-                    4: 'Espaço Urbano: Urbanização e Crescimento das Cidades',
-                    5: 'Mobilidade e Redes de Transporte e Comunicação',
-                    6: 'Matriz Energética Brasileira: Fontes Renováveis e Não Renováveis'
-                };
+        function showPage(pageId) {
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+            document.getElementById(`${pageId}-page`).classList.add('active');
+        }
 
-                // Atualizar título
-                document.getElementById('unit-title').textContent = `Unidade ${unitId} - ${unitTitles[unitId]}`;
+        function showTab(tabName, button) {
+            document.querySelectorAll('.tab-panel').forEach(panel => {
+                panel.classList.remove('active');
+            });
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            document.getElementById(`${tabName}-tab`).classList.add('active');
+            button.classList.add('active');
+        }
 
-                // Atualizar imagem do Stitch
-                document.getElementById('unit-stitch').src = `assets/stitch/Unidade${unitId}.png`;
+        function updateNavigation(activeUnit = null) {
+            document.querySelectorAll('.nav-item').forEach(item => {
+                item.classList.remove('active');
+            });
 
-                // Carregar mapa mental
-                document.getElementById('mindmap-image').src = `assets/mindmaps/MindmapUnidade${unitId}-*.png`;
-
-                // Carregar conteúdo de revisão
-                this.loadReviewContent(unitId);
-
-                // Carregar questões
-                this.loadQuestions(unitId);
-            }
-
-            loadReviewContent(unitId) {
-                const reviewElement = document.getElementById('review-content');
-                reviewElement.innerHTML = `
-                    <h3>Conteúdo de Revisão - Unidade ${unitId}</h3>
-                    <p>📚 O conteúdo de revisão desta unidade está disponível nos arquivos fornecidos.</p>
-                    <p>🗺️ Consulte o mapa mental na aba anterior para uma visão geral dos conceitos.</p>
-                    <div class="review-placeholder">
-                        <p><strong>Arquivo de revisão:</strong> Revisao_Unidade_${unitId}_Geografia.docx</p>
-                        <p>Este conteúdo será integrado em uma próxima atualização da plataforma.</p>
-                    </div>
-                `;
-            }
-
-            loadQuestions(unitId) {
-                const questionsElement = document.getElementById('questions-content');
-                questionsElement.innerHTML = `
-                    <h3>Questões - Unidade ${unitId}</h3>
-                    <p>❓ As questões desta unidade estão disponíveis nos arquivos fornecidos.</p>
-                    <div class="questions-placeholder">
-                        <p><strong>Arquivo de questões:</strong> QuestoesgeografiaUnidade${unitId}.docx</p>
-                        <p>As questões interativas serão implementadas em uma próxima atualização.</p>
-                        <p>Por enquanto, consulte o arquivo original para as atividades.</p>
-                    </div>
-                `;
-            }
-
-            showPage(pageId) {
-                document.querySelectorAll('.page').forEach(page => {
-                    page.classList.remove('active');
-                });
-                document.getElementById(`${pageId}-page`).classList.add('active');
-            }
-
-            showHome() {
-                this.showPage('home');
-                this.currentUnit = null;
-                this.updateNavigation();
-            }
-
-            showTab(tabName) {
-                document.querySelectorAll('.tab-panel').forEach(panel => {
-                    panel.classList.remove('active');
-                });
-                document.getElementById(`${tabName}-tab`).classList.add('active');
-            }
-
-            setActiveTab(activeBtn) {
-                document.querySelectorAll('.tab-btn').forEach(btn => {
-                    btn.classList.remove('active');
-                });
-                activeBtn.classList.add('active');
-            }
-
-            updateNavigation(activeUnit = null) {
-                document.querySelectorAll('.nav-item').forEach(item => {
-                    item.classList.remove('active');
-                });
-
-                if (activeUnit) {
-                    const unitNav = document.querySelector(`[data-unit="${activeUnit}"]`);
-                    if (unitNav) unitNav.classList.add('active');
-                } else {
-                    document.getElementById('home-btn').classList.add('active');
-                }
-            }
-
-            toggleSidebar() {
-                this.sidebarOpen = !this.sidebarOpen;
-                document.getElementById('sidebar').classList.toggle('open');
-                document.getElementById('overlay').classList.toggle('active');
-            }
-
-            closeSidebar() {
-                this.sidebarOpen = false;
-                document.getElementById('sidebar').classList.remove('open');
-                document.getElementById('overlay').classList.remove('active');
-            }
-
-            setupResponsive() {
-                window.addEventListener('resize', () => {
-                    if (window.innerWidth > 768 && this.sidebarOpen) {
-                        this.closeSidebar();
-                    }
-                });
+            if (activeUnit) {
+                const unitNav = document.querySelector(`[data-unit="${activeUnit}"]`);
+                if (unitNav) unitNav.classList.add('active');
+            } else {
+                document.getElementById('home-btn').classList.add('active');
             }
         }
 
-        // Inicializar aplicação
-        document.addEventListener('DOMContentLoaded', () => {
-            new SimpleGeografiaApp();
-        });
+        // Funções das unidades
+        function openUnit(unitId) {
+            currentUnit = unitId;
+            loadUnitContent(unitId);
+            showPage('unit');
+            updateNavigation(unitId);
+            closeSidebar();
+        }
+
+        function loadUnitContent(unitId) {
+            const unitTitles = {
+                1: 'Demografia',
+                2: 'Formação do Território Brasileiro',
+                3: 'Trabalho e Transformações Espaciais',
+                4: 'Espaço Urbano: Urbanização e Crescimento das Cidades',
+                5: 'Mobilidade e Redes de Transporte e Comunicação',
+                6: 'Matriz Energética Brasileira: Fontes Renováveis e Não Renováveis'
+            };
+
+            // Atualizar título
+            document.getElementById('unit-title').textContent = `Unidade ${unitId} - ${unitTitles[unitId]}`;
+
+            // Atualizar imagem do Stitch
+            document.getElementById('unit-stitch').src = `assets/stitch/Unidade${unitId}.png`;
+
+            // Carregar mapa mental
+            document.getElementById('mindmap-image').src = `assets/mindmaps/mapa_unidade_${unitId}.png`;
+            document.getElementById('review-mindmap-image').src = `assets/mindmaps/mapa_unidade_${unitId}.png`;
+
+            // Carregar conteúdo de revisão
+            loadReviewContent(unitId);
+
+            // Carregar questões
+            loadQuestions(unitId);
+
+            // Mostrar primeira aba
+            showTab('mindmap', document.querySelector('.tab-btn'));
+        }
+
+        function loadReviewContent(unitId) {
+            const reviewElement = document.getElementById('review-content');
+            const panelElement = document.getElementById('review-panel-text');
+            
+            const content = REVISAO_CONTENT[unitId] || 'Conteúdo não encontrado.';
+            
+            const reviewHtml = `
+                <h3>📖 Conteúdo de Revisão - Unidade ${unitId}</h3>
+                <div class="review-text">
+                    ${content.split('\n').map(line => 
+                        line.trim() ? `<p>${line}</p>` : ''
+                    ).join('')}
+                </div>
+            `;
+            
+            reviewElement.innerHTML = reviewHtml;
+            panelElement.innerHTML = reviewHtml;
+        }
+
+        function loadQuestions(unitId) {
+            const questionsElement = document.getElementById('questions-content');
+            
+            // Resetar dados da sessão
+            currentQuestionIndex = 0;
+            userAnswers = [];
+            
+            // Usar as questões do arquivo all-questions.js se disponível
+            if (typeof getMultipleQuestions === 'function') {
+                questionsData = getMultipleQuestions(unitId, 10); // 10 questões por sessão
+                
+                if (questionsData.length === 0) {
+                    questionsElement.innerHTML = `
+                        <h3>❓ Questões - Unidade ${unitId}</h3>
+                        <p>Questões não disponíveis para esta unidade.</p>
+                    `;
+                    return;
+                }
+                
+                showCurrentQuestion();
+            } else {
+                // Fallback para o conteúdo antigo
+                const content = QUESTOES_CONTENT[unitId] || 'Questões não encontradas.';
+                questionsElement.innerHTML = `
+                    <h3>❓ Questões - Unidade ${unitId}</h3>
+                    <div class="questions-text">
+                        ${content.split('\n').map(line => 
+                            line.trim() ? `<p>${line}</p>` : ''
+                        ).join('')}
+                    </div>
+                `;
+            }
+        }
+
+        function showCurrentQuestion() {
+            const questionsElement = document.getElementById('questions-content');
+            const question = questionsData[currentQuestionIndex];
+            
+            if (!question) {
+                showResults();
+                return;
+            }
+            
+            const questionId = `current_question`;
+            
+            let questionsHtml = `
+                <div class="questions-header-info">
+                    <h3>❓ Questões Interativas - Unidade ${currentUnit}</h3>
+                    <div class="question-progress">
+                        Questão ${currentQuestionIndex + 1} de ${questionsData.length}
+                    </div>
+                </div>
+                
+                <div class="question-item active-question" id="${questionId}">
+                    <div class="question-header">
+                        <span class="question-number">Questão ${currentQuestionIndex + 1}</span>
+                        <span class="question-type">${question.type === 'true_false' ? 'Verdadeiro/Falso' : 'Múltipla Escolha'}</span>
+                    </div>
+                    <div class="question-text">${question.question}</div>
+                    
+                    ${question.type === 'true_false' ? `
+                        <div class="question-options">
+                            <button class="option-btn" onclick="answerQuestion('Verdadeiro')">
+                                ✅ Verdadeiro
+                            </button>
+                            <button class="option-btn" onclick="answerQuestion('Falso')">
+                                ❌ Falso
+                            </button>
+                        </div>
+                    ` : ''}
+                    
+                    ${question.type === 'multiple_choice' && question.options ? `
+                        <div class="question-options">
+                            ${question.options.map((option, optIndex) => {
+                                const optionLetter = option.charAt(0);
+                                return `
+                                    <button class="option-btn" onclick="answerQuestion('${optionLetter}')">
+                                        ${option}
+                                    </button>
+                                `;
+                            }).join('')}
+                        </div>
+                    ` : ''}
+                    
+                    <div class="question-answer" id="${questionId}_answer" style="display: none;">
+                        <div class="answer-feedback">
+                            <strong>✅ Gabarito:</strong> ${question.answer}
+                            <div class="feedback-message" id="${questionId}_feedback"></div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            questionsElement.innerHTML = questionsHtml;
+        }
+
+        function answerQuestion(userAnswer) {
+            const question = questionsData[currentQuestionIndex];
+            const isCorrect = userAnswer === question.answer;
+            
+            // Salvar resposta
+            userAnswers.push({
+                question: question.question,
+                userAnswer: userAnswer,
+                correctAnswer: question.answer,
+                isCorrect: isCorrect
+            });
+            
+            // Mostrar feedback
+            showQuestionFeedback(userAnswer, question.answer, isCorrect);
+            
+            // Aguardar um pouco e avançar para próxima questão
+            setTimeout(() => {
+                currentQuestionIndex++;
+                showCurrentQuestion();
+            }, 3000);
+        }
+
+        function showQuestionFeedback(userAnswer, correctAnswer, isCorrect) {
+            const questionId = 'current_question';
+            const answerDiv = document.getElementById(questionId + '_answer');
+            const feedbackDiv = document.getElementById(questionId + '_feedback');
+            const questionDiv = document.getElementById(questionId);
+            
+            // Mostrar o gabarito
+            answerDiv.style.display = 'block';
+            
+            // Feedback do Stitch
+            let stitchMessage = '';
+            let feedbackClass = '';
+            
+            if (isCorrect) {
+                stitchMessage = STITCH_FEEDBACK.correct[Math.floor(Math.random() * STITCH_FEEDBACK.correct.length)];
+                feedbackClass = 'feedback-correct';
+            } else {
+                stitchMessage = STITCH_FEEDBACK.incorrect[Math.floor(Math.random() * STITCH_FEEDBACK.incorrect.length)];
+                feedbackClass = 'feedback-incorrect';
+                
+                // Adicionar dica educativa se disponível
+                const questionText = questionsData[currentQuestionIndex].question.toLowerCase();
+                for (const concept in EDUCATIONAL_TIPS) {
+                    if (questionText.includes(concept)) {
+                        stitchMessage += `<br><br>💡 ${EDUCATIONAL_TIPS[concept]}`;
+                        break;
+                    }
+                }
+            }
+            
+            feedbackDiv.innerHTML = `<div class="${feedbackClass}">${stitchMessage}</div>`;
+            
+            // Marcar questão como respondida
+            questionDiv.classList.add('answered');
+            
+            // Desabilitar botões de opção
+            const optionBtns = questionDiv.querySelectorAll('.option-btn');
+            optionBtns.forEach(btn => {
+                btn.disabled = true;
+                if ((correctAnswer === 'Verdadeiro' && btn.textContent.includes('Verdadeiro')) ||
+                    (correctAnswer === 'Falso' && btn.textContent.includes('Falso')) ||
+                    btn.textContent.includes(correctAnswer)) {
+                    btn.classList.add('correct-answer');
+                }
+            });
+            
+            // Mostrar modal do Stitch
+            showStitchModal(stitchMessage);
+        }
+
+        function showResults() {
+            const questionsElement = document.getElementById('questions-content');
+            const resultsElement = document.getElementById('questions-results');
+            
+            // Calcular estatísticas
+            const totalQuestions = userAnswers.length;
+            const correctAnswers = userAnswers.filter(a => a.isCorrect).length;
+            const percentage = Math.round((correctAnswers / totalQuestions) * 100);
+            
+            // Determinar estrelas e medalha
+            let stars = '⭐';
+            let medalType = '';
+            let medalIcon = '';
+            
+            if (percentage >= 90) {
+                stars = '⭐⭐⭐';
+                medalType = 'Ouro';
+                medalIcon = '🥇';
+            } else if (percentage >= 80) {
+                stars = '⭐⭐⭐';
+                medalType = 'Prata';
+                medalIcon = '🥈';
+            } else if (percentage >= 50) {
+                stars = '⭐⭐';
+                medalType = 'Bronze';
+                medalIcon = '🥉';
+            }
+            
+            // Atualizar elementos de resultado
+            document.getElementById('final-correct').textContent = correctAnswers;
+            document.getElementById('final-total').textContent = totalQuestions;
+            document.getElementById('final-percentage').textContent = percentage + '%';
+            document.getElementById('stars-earned').textContent = stars;
+            
+            const unitMedal = UNIT_MEDALS[currentUnit];
+            if (medalType && unitMedal) {
+                document.getElementById('medal-earned').innerHTML = `${medalIcon} ${medalType} - ${unitMedal.icon} ${unitMedal.name}`;
+            } else {
+                document.getElementById('medal-earned').textContent = 'Continue praticando para ganhar uma medalha!';
+            }
+            
+            // Verificar se ganhou acessório
+            if (percentage >= 85) {
+                const accessories = ['óculos estiloso', 'chapéu de explorador', 'mochila de campo', 'boné espacial'];
+                const randomAccessory = accessories[Math.floor(Math.random() * accessories.length)];
+                document.getElementById('accessory-earned').innerHTML = `🎁 Parabéns! Você ganhou um ${randomAccessory} para o Stitch!`;
+                document.getElementById('accessory-earned').style.display = 'block';
+            }
+            
+            // Salvar progresso
+            saveUnitProgress(currentUnit, percentage, medalType);
+            
+            // Mostrar resultados
+            questionsElement.style.display = 'none';
+            resultsElement.style.display = 'block';
+            
+            // Mostrar modal de parabéns do Stitch
+            let congratsMessage = '';
+            if (percentage >= 90) {
+                congratsMessage = `🎉 Uau! ${percentage}% de acertos! Você é um verdadeiro ${unitMedal.name}! Tia Roberta vai ficar super orgulhosa!`;
+            } else if (percentage >= 80) {
+                congratsMessage = `🎊 Muito bem! ${percentage}% de acertos! Você conquistou a medalha de ${medalType}!`;
+            } else if (percentage >= 50) {
+                congratsMessage = `👏 Bom trabalho! ${percentage}% de acertos! Continue praticando para melhorar ainda mais!`;
+            } else {
+                congratsMessage = `💪 Não desista! ${percentage}% de acertos. Vamos revisar o conteúdo e tentar novamente!`;
+            }
+            
+            setTimeout(() => {
+                showStitchModal(congratsMessage);
+            }, 1000);
+        }
+
+        // Funções do Stitch
+        function stitchWelcome() {
+            const speech = document.getElementById('stitch-speech');
+            const welcomeMessages = [
+                "Oi! Eu sou o Stitch. Vamos estudar Geografia de um jeito divertido?",
+                "Ohana significa família, e família significa estudar Geografia juntos!",
+                "Preparado para uma aventura geográfica comigo?",
+                "Vamos explorar o mundo da Geografia! Vai ser muito legal!"
+            ];
+            
+            const randomMessage = welcomeMessages[Math.floor(Math.random() * welcomeMessages.length)];
+            speech.textContent = `"${randomMessage}"`;
+            speech.classList.add('animate');
+            
+            setTimeout(() => {
+                speech.classList.remove('animate');
+            }, 3000);
+        }
+
+        function stitchSpeak() {
+            if (currentUnit) {
+                stitchExplain();
+            } else {
+                stitchWelcome();
+            }
+        }
+
+        function stitchExplain() {
+            if (!currentUnit) return;
+            
+            const explanation = STITCH_EXPLANATIONS[currentUnit];
+            showStitchModal(explanation);
+        }
+
+        function showStitchModal(message) {
+            const modal = document.getElementById('stitch-modal');
+            const messageElement = document.getElementById('stitch-message');
+            const stitchImage = document.getElementById('modal-stitch');
+            
+            messageElement.innerHTML = message;
+            
+            if (currentUnit) {
+                stitchImage.src = `assets/stitch/Unidade${currentUnit}.png`;
+            }
+            
+            modal.classList.add('active');
+            document.getElementById('overlay').classList.add('active');
+        }
+
+        function closeStitchModal() {
+            const modal = document.getElementById('stitch-modal');
+            modal.classList.remove('active');
+            document.getElementById('overlay').classList.remove('active');
+        }
+
+        // Funções do painel de revisão
+        function openReviewPanel() {
+            const panel = document.getElementById('review-panel');
+            panel.classList.add('active');
+            document.getElementById('overlay').classList.add('active');
+        }
+
+        function closeReviewPanel() {
+            const panel = document.getElementById('review-panel');
+            panel.classList.remove('active');
+            document.getElementById('overlay').classList.remove('active');
+        }
+
+        // Funções de progresso e dados
+        function saveUnitProgress(unitId, percentage, medalType) {
+            const unitData = {
+                percentage: percentage,
+                medal: medalType,
+                completed: true,
+                completedAt: new Date().toISOString()
+            };
+            
+            localStorage.setItem(`unit_${unitId}_progress`, JSON.stringify(unitData));
+            updateProgressDisplay();
+        }
+
+        function loadGameData() {
+            // Carregar dados salvos do localStorage
+            for (let i = 1; i <= 6; i++) {
+                const unitData = localStorage.getItem(`unit_${i}_progress`);
+                if (unitData) {
+                    const data = JSON.parse(unitData);
+                    updateUnitDisplay(i, data);
+                }
+            }
+        }
+
+        function updateUnitDisplay(unitId, data) {
+            const progressBar = document.getElementById(`progress-${unitId}`);
+            const starsElement = document.getElementById(`stars-${unitId}`);
+            const medalElement = document.getElementById(`medal-${unitId}`);
+            
+            if (progressBar) {
+                progressBar.style.width = data.percentage + '%';
+            }
+            
+            if (starsElement) {
+                if (data.percentage >= 90) {
+                    starsElement.textContent = '⭐⭐⭐';
+                } else if (data.percentage >= 80) {
+                    starsElement.textContent = '⭐⭐⭐';
+                } else if (data.percentage >= 50) {
+                    starsElement.textContent = '⭐⭐';
+                } else {
+                    starsElement.textContent = '⭐';
+                }
+            }
+            
+            if (medalElement && data.medal) {
+                const unitMedal = UNIT_MEDALS[unitId];
+                let medalIcon = '';
+                if (data.medal === 'Ouro') medalIcon = '🥇';
+                else if (data.medal === 'Prata') medalIcon = '🥈';
+                else if (data.medal === 'Bronze') medalIcon = '🥉';
+                
+                medalElement.textContent = `${medalIcon} ${unitMedal.name}`;
+            }
+        }
+
+        function updateProgressDisplay() {
+            // Atualizar estatísticas gerais
+            let totalPoints = 0;
+            let totalMedals = 0;
+            
+            for (let i = 1; i <= 6; i++) {
+                const unitData = localStorage.getItem(`unit_${i}_progress`);
+                if (unitData) {
+                    const data = JSON.parse(unitData);
+                    totalPoints += data.percentage * 10; // 10 pontos por porcentagem
+                    if (data.medal) totalMedals++;
+                }
+            }
+            
+            document.getElementById('total-points').textContent = totalPoints;
+            document.getElementById('total-medals').textContent = totalMedals;
+            document.getElementById('total-accessories').textContent = Math.floor(totalPoints / 850); // 1 acessório a cada 850 pontos
+        }
+
+        function resetUnit(unitId, event) {
+            event.stopPropagation(); // Evitar abrir a unidade
+            
+            if (confirm('Tem certeza que deseja recomeçar esta unidade? Todo o progresso será perdido.')) {
+                localStorage.removeItem(`unit_${unitId}_progress`);
+                
+                // Resetar display
+                const progressBar = document.getElementById(`progress-${unitId}`);
+                const starsElement = document.getElementById(`stars-${unitId}`);
+                const medalElement = document.getElementById(`medal-${unitId}`);
+                
+                if (progressBar) progressBar.style.width = '0%';
+                if (starsElement) starsElement.textContent = '☆☆☆';
+                if (medalElement) medalElement.textContent = '—';
+                
+                updateProgressDisplay();
+                
+                showStitchModal("Tudo bem! Vamos começar de novo e arrasar ainda mais desta vez!");
+            }
+        }
     </script>
 </body>
 </html>
