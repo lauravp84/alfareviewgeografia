@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlfaReview Geografia - 5º Ano</title>
+    <meta name="description" content="Plataforma educacional gamificada para Geografia do 5º ano com o mascote Stitch">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/stitch/Unidade1.png">
+</head>
+<body>
+    <!-- Tela de Identificação do Aluno -->
+    <div id="welcome-screen" class="screen active">
+        <div class="welcome-container">
+            <div class="stitch-welcome">
+                <img src="assets/stitch/Unidade1.png" alt="Stitch" class="stitch-avatar bounce">
+            </div>
+            <div class="welcome-content">
+                <h1 class="welcome-title">AlfaReview Geografia</h1>
+                <div class="speech-bubble">
+                    <p>Olá! Qual é o seu nome?</p>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="student-name" placeholder="Digite seu nome aqui..." maxlength="30">
+                    <button id="start-btn" class="btn-primary">Começar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tela Principal -->
+    <div id="main-screen" class="screen">
+        <!-- Barra Lateral de Navegação -->
+        <nav id="sidebar" class="sidebar">
+            <div class="sidebar-header">
+                <h2>📘 AlfaReview Geografia</h2>
+                <button id="sidebar-toggle" class="sidebar-toggle">☰</button>
+            </div>
+            
+            <div class="sidebar-content">
+                <div class="student-info">
+                    <div class="student-avatar">👤</div>
+                    <span id="student-display-name">Aluno</span>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="#" id="home-btn" class="nav-item active">🏠 Início</a></li>
+                    <li><a href="#" id="progress-btn" class="nav-item">📊 Meu Progresso</a></li>
+                    <li class="nav-divider">📂 Unidades</li>
+                    <li><a href="#" data-unit="1" class="nav-item unit-nav">📍 Demografia</a></li>
+                    <li><a href="#" data-unit="2" class="nav-item unit-nav">🗺️ Formação do Território</a></li>
+                    <li><a href="#" data-unit="3" class="nav-item unit-nav">⚒️ Trabalho e Transformações</a></li>
+                    <li><a href="#" data-unit="4" class="nav-item unit-nav">🌆 Espaço Urbano</a></li>
+                    <li><a href="#" data-unit="5" class="nav-item unit-nav">🚀 Mobilidade e Redes</a></li>
+                    <li><a href="#" data-unit="6" class="nav-item unit-nav">🌳 Matriz Energética</a></li>
+                </ul>
+                
+                <div class="sidebar-footer">
+                    <button id="export-progress" class="btn-secondary">💾 Exportar Progresso</button>
+                    <button id="import-progress" class="btn-secondary">📁 Importar Progresso</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Conteúdo Principal -->
+        <main id="main-content" class="main-content">
+            <!-- Página Inicial -->
+            <div id="home-page" class="page active">
+                <header class="page-header">
+                    <div class="stitch-container">
+                        <img src="assets/stitch/Unidade1.png" alt="Stitch" id="main-stitch" class="stitch-main clickable">
+                        <div class="speech-bubble" id="stitch-speech">
+                            <p>Oi! Eu sou o Stitch. Vamos estudar Geografia de um jeito divertido?</p>
+                        </div>
+                    </div>
+                    <h1>Bem-vindo, <span id="student-name-display">Aluno</span>!</h1>
+                </header>
+
+                <section class="units-grid">
+                    <div class="unit-card" data-unit="1">
+                        <div class="unit-image">
+                            <img src="assets/stitch/Unidade1.png" alt="Stitch Demografia">
+                        </div>
+                        <div class="unit-content">
+                            <h3>Unidade 1</h3>
+                            <h4>Demografia</h4>
+                            <div class="unit-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" data-progress="0"></div>
+                                </div>
+                                <div class="unit-stats">
+                                    <span class="stars">⭐⭐⭐</span>
+                                    <span class="medal">🥇</span>
+                                </div>
+                            </div>
+                            <button class="btn-unit">Estudar</button>
+                        </div>
+                    </div>
+
+                    <div class="unit-card" data-unit="2">
+                        <div class="unit-image">
+                            <img src="assets/stitch/Unidade2.png" alt="Stitch Território">
+                        </div>
+                        <div class="unit-content">
+                            <h3>Unidade 2</h3>
+                            <h4>Formação do Território Brasileiro</h4>
+                            <div class="unit-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" data-progress="0"></div>
+                                </div>
+                                <div class="unit-stats">
+                                    <span class="stars">⭐⭐⭐</span>
+                                    <span class="medal">🧭</span>
+                                </div>
+                            </div>
+                            <button class="btn-unit">Estudar</button>
+                        </div>
+                    </div>
+
+                    <div class="unit-card" data-unit="3">
+                        <div class="unit-image">
+                            <img src="assets/stitch/Unidade3.png" alt="Stitch Trabalho">
+                        </div>
+                        <div class="unit-content">
+                            <h3>Unidade 3</h3>
+                            <h4>O Trabalho e as Transformações Espaciais</h4>
+                            <div class="unit-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" data-progress="0"></div>
+                                </div>
+                                <div class="unit-stats">
+                                    <span class="stars">⭐⭐⭐</span>
+                                    <span class="medal">⚒️</span>
+                                </div>
+                            </div>
+                            <button class="btn-unit">Estudar</button>
+                        </div>
+                    </div>
+
+                    <div class="unit-card" data-unit="4">
+                        <div class="unit-image">
+                            <img src="assets/stitch/Unidade4.png" alt="Stitch Urbano">
+                        </div>
+                        <div class="unit-content">
+                            <h3>Unidade 4</h3>
+                            <h4>Espaço Urbano: Urbanização e Crescimento das Cidades</h4>
+                            <div class="unit-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" data-progress="0"></div>
+                                </div>
+                                <div class="unit-stats">
+                                    <span class="stars">⭐⭐⭐</span>
+                                    <span class="medal">🌆</span>
+                                </div>
+                            </div>
+                            <button class="btn-unit">Estudar</button>
+                        </div>
+                    </div>
+
+                    <div class="unit-card" data-unit="5">
+                        <div class="unit-image">
+                            <img src="assets/stitch/Unidade5.png" alt="Stitch Mobilidade">
+                        </div>
+                        <div class="unit-content">
+                            <h3>Unidade 5</h3>
+                            <h4>Mobilidade e Redes de Transporte e Comunicação</h4>
+                            <div class="unit-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" data-progress="0"></div>
+                                </div>
+                                <div class="unit-stats">
+                                    <span class="stars">⭐⭐⭐</span>
+                                    <span class="medal">🚀</span>
+                                </div>
+                            </div>
+                            <button class="btn-unit">Estudar</button>
+                        </div>
+                    </div>
+
+                    <div class="unit-card" data-unit="6">
+                        <div class="unit-image">
+                            <img src="assets/stitch/Unidade6.png" alt="Stitch Energia">
+                        </div>
+                        <div class="unit-content">
+                            <h3>Unidade 6</h3>
+                            <h4>Matriz Energética Brasileira</h4>
+                            <div class="unit-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" data-progress="0"></div>
+                                </div>
+                                <div class="unit-stats">
+                                    <span class="stars">⭐⭐⭐</span>
+                                    <span class="medal">🌳</span>
+                                </div>
+                            </div>
+                            <button class="btn-unit">Estudar</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Página de Progresso -->
+            <div id="progress-page" class="page">
+                <header class="page-header">
+                    <h1>📊 Meu Progresso</h1>
+                </header>
+                <div class="progress-overview">
+                    <div class="total-stats">
+                        <div class="stat-card">
+                            <h3>Pontos Totais</h3>
+                            <span id="total-points">0</span>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Medalhas</h3>
+                            <span id="total-medals">0</span>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Unidades Concluídas</h3>
+                            <span id="completed-units">0/6</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Página de Unidade -->
+            <div id="unit-page" class="page">
+                <header class="page-header">
+                    <button id="back-to-home" class="btn-back">← Voltar</button>
+                    <h1 id="unit-title">Unidade</h1>
+                    <button id="review-content" class="btn-review">🔄 Revisar Conteúdo</button>
+                </header>
+                
+                <div class="unit-content-area">
+                    <div class="stitch-unit-container">
+                        <img src="assets/stitch/Unidade1.png" alt="Stitch" id="unit-stitch" class="stitch-unit clickable">
+                        <div class="speech-bubble" id="unit-stitch-speech">
+                            <p>Vamos começar esta unidade!</p>
+                        </div>
+                    </div>
+                    
+                    <div id="questions-container" class="questions-container">
+                        <!-- Questões serão carregadas dinamicamente -->
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Painel de Revisão -->
+        <aside id="review-panel" class="review-panel">
+            <div class="review-header">
+                <h3>📖 Conteúdo de Revisão</h3>
+                <button id="close-review" class="btn-close">✕</button>
+            </div>
+            <div class="review-content">
+                <div class="mindmap-container">
+                    <img id="review-mindmap" src="" alt="Mapa Mental">
+                </div>
+                <div class="review-text" id="review-text-content">
+                    <!-- Conteúdo de revisão será carregado aqui -->
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Modal de Importação -->
+    <div id="import-modal" class="modal">
+        <div class="modal-content">
+            <h3>Importar Progresso</h3>
+            <p>Selecione um arquivo JSON com seu progresso:</p>
+            <input type="file" id="import-file" accept=".json">
+            <div class="modal-actions">
+                <button id="cancel-import" class="btn-secondary">Cancelar</button>
+                <button id="confirm-import" class="btn-primary">Importar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Overlay -->
+    <div id="overlay" class="overlay"></div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/storage.js"></script>
+    <script src="assets/js/backup.js"></script>
+    <script src="assets/js/stitch.js"></script>
+    <script src="assets/js/gamification.js"></script>
+    <script src="assets/js/questions.js"></script>
+    <script src="assets/js/content.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
+
