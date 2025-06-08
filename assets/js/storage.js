@@ -692,3 +692,7 @@ window.storageManager = new StorageManager();
     }
 }
 
+
+// Instância global do gerenciador de armazenamento
+window.storageManager = new StorageManager();
+

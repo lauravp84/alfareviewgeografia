@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AlfaReview Geografia - 5º Ano</title>
-    <meta name="description" content="Plataforma educacional gamificada para Geografia do 5º ano com o mascote Stitch">
+    <meta name="description" content="Plataforma educacional para Geografia do 5º ano com mapas mentais e questões">
     
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/main.css">
@@ -15,27 +15,8 @@
     <link rel="icon" type="image/png" href="assets/stitch/Unidade1.png">
 </head>
 <body>
-    <!-- Tela de Identificação do Aluno -->
-    <div id="welcome-screen" class="screen active">
-        <div class="welcome-container">
-            <div class="stitch-welcome">
-                <img src="assets/stitch/Unidade1.png" alt="Stitch" class="stitch-avatar bounce">
-            </div>
-            <div class="welcome-content">
-                <h1 class="welcome-title">AlfaReview Geografia</h1>
-                <div class="speech-bubble">
-                    <p>Olá! Qual é o seu nome?</p>
-                </div>
-                <div class="input-group">
-                    <input type="text" id="student-name" placeholder="Digite seu nome aqui..." maxlength="30">
-                    <button id="start-btn" class="btn-primary">Começar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Tela Principal -->
-    <div id="main-screen" class="screen">
+    <div id="main-screen" class="screen active">
         <!-- Barra Lateral de Navegação -->
         <nav id="sidebar" class="sidebar">
             <div class="sidebar-header">
@@ -44,14 +25,8 @@
             </div>
             
             <div class="sidebar-content">
-                <div class="student-info">
-                    <div class="student-avatar">👤</div>
-                    <span id="student-display-name">Aluno</span>
-                </div>
-                
                 <ul class="nav-menu">
                     <li><a href="#" id="home-btn" class="nav-item active">🏠 Início</a></li>
-                    <li><a href="#" id="progress-btn" class="nav-item">📊 Meu Progresso</a></li>
                     <li class="nav-divider">📂 Unidades</li>
                     <li><a href="#" data-unit="1" class="nav-item unit-nav">📍 Demografia</a></li>
                     <li><a href="#" data-unit="2" class="nav-item unit-nav">🗺️ Formação do Território</a></li>
@@ -60,11 +35,6 @@
                     <li><a href="#" data-unit="5" class="nav-item unit-nav">🚀 Mobilidade e Redes</a></li>
                     <li><a href="#" data-unit="6" class="nav-item unit-nav">🌳 Matriz Energética</a></li>
                 </ul>
-                
-                <div class="sidebar-footer">
-                    <button id="export-progress" class="btn-secondary">💾 Exportar Progresso</button>
-                    <button id="import-progress" class="btn-secondary">📁 Importar Progresso</button>
-                </div>
             </div>
         </nav>
 
@@ -74,12 +44,12 @@
             <div id="home-page" class="page active">
                 <header class="page-header">
                     <div class="stitch-container">
-                        <img src="assets/stitch/Unidade1.png" alt="Stitch" id="main-stitch" class="stitch-main clickable">
+                        <img src="assets/stitch/Unidade1.png" alt="Stitch" id="main-stitch" class="stitch-main">
                         <div class="speech-bubble" id="stitch-speech">
-                            <p>Oi! Eu sou o Stitch. Vamos estudar Geografia de um jeito divertido?</p>
+                            <p>Olá! Vamos estudar Geografia de um jeito divertido? Escolha uma unidade!</p>
                         </div>
                     </div>
-                    <h1>Bem-vindo, <span id="student-name-display">Aluno</span>!</h1>
+                    <h1>Geografia - 5º Ano</h1>
                 </header>
 
                 <section class="units-grid">
@@ -90,15 +60,7 @@
                         <div class="unit-content">
                             <h3>Unidade 1</h3>
                             <h4>Demografia</h4>
-                            <div class="unit-progress">
-                                <div class="progress-bar">
-                                    <div class="progress-fill" data-progress="0"></div>
-                                </div>
-                                <div class="unit-stats">
-                                    <span class="stars">⭐⭐⭐</span>
-                                    <span class="medal">🥇</span>
-                                </div>
-                            </div>
+                            <p>Estudo da população brasileira</p>
                             <button class="btn-unit">Estudar</button>
                         </div>
                     </div>
@@ -109,16 +71,8 @@
                         </div>
                         <div class="unit-content">
                             <h3>Unidade 2</h3>
-                            <h4>Formação do Território Brasileiro</h4>
-                            <div class="unit-progress">
-                                <div class="progress-bar">
-                                    <div class="progress-fill" data-progress="0"></div>
-                                </div>
-                                <div class="unit-stats">
-                                    <span class="stars">⭐⭐⭐</span>
-                                    <span class="medal">🧭</span>
-                                </div>
-                            </div>
+                            <h4>Formação do Território</h4>
+                            <p>Como o Brasil se formou geograficamente</p>
                             <button class="btn-unit">Estudar</button>
                         </div>
                     </div>
@@ -129,16 +83,8 @@
                         </div>
                         <div class="unit-content">
                             <h3>Unidade 3</h3>
-                            <h4>O Trabalho e as Transformações Espaciais</h4>
-                            <div class="unit-progress">
-                                <div class="progress-bar">
-                                    <div class="progress-fill" data-progress="0"></div>
-                                </div>
-                                <div class="unit-stats">
-                                    <span class="stars">⭐⭐⭐</span>
-                                    <span class="medal">⚒️</span>
-                                </div>
-                            </div>
+                            <h4>Trabalho e Transformações</h4>
+                            <p>Como o trabalho transforma o espaço</p>
                             <button class="btn-unit">Estudar</button>
                         </div>
                     </div>
@@ -149,16 +95,8 @@
                         </div>
                         <div class="unit-content">
                             <h3>Unidade 4</h3>
-                            <h4>Espaço Urbano: Urbanização e Crescimento das Cidades</h4>
-                            <div class="unit-progress">
-                                <div class="progress-bar">
-                                    <div class="progress-fill" data-progress="0"></div>
-                                </div>
-                                <div class="unit-stats">
-                                    <span class="stars">⭐⭐⭐</span>
-                                    <span class="medal">🌆</span>
-                                </div>
-                            </div>
+                            <h4>Espaço Urbano</h4>
+                            <p>Urbanização e crescimento das cidades</p>
                             <button class="btn-unit">Estudar</button>
                         </div>
                     </div>
@@ -169,16 +107,8 @@
                         </div>
                         <div class="unit-content">
                             <h3>Unidade 5</h3>
-                            <h4>Mobilidade e Redes de Transporte e Comunicação</h4>
-                            <div class="unit-progress">
-                                <div class="progress-bar">
-                                    <div class="progress-fill" data-progress="0"></div>
-                                </div>
-                                <div class="unit-stats">
-                                    <span class="stars">⭐⭐⭐</span>
-                                    <span class="medal">🚀</span>
-                                </div>
-                            </div>
+                            <h4>Mobilidade e Redes</h4>
+                            <p>Transporte e comunicação no Brasil</p>
                             <button class="btn-unit">Estudar</button>
                         </div>
                     </div>
@@ -189,109 +119,259 @@
                         </div>
                         <div class="unit-content">
                             <h3>Unidade 6</h3>
-                            <h4>Matriz Energética Brasileira</h4>
-                            <div class="unit-progress">
-                                <div class="progress-bar">
-                                    <div class="progress-fill" data-progress="0"></div>
-                                </div>
-                                <div class="unit-stats">
-                                    <span class="stars">⭐⭐⭐</span>
-                                    <span class="medal">🌳</span>
-                                </div>
-                            </div>
+                            <h4>Matriz Energética</h4>
+                            <p>Fontes de energia renováveis e não renováveis</p>
                             <button class="btn-unit">Estudar</button>
                         </div>
                     </div>
                 </section>
             </div>
 
-            <!-- Página de Progresso -->
-            <div id="progress-page" class="page">
-                <header class="page-header">
-                    <h1>📊 Meu Progresso</h1>
-                </header>
-                <div class="progress-overview">
-                    <div class="total-stats">
-                        <div class="stat-card">
-                            <h3>Pontos Totais</h3>
-                            <span id="total-points">0</span>
-                        </div>
-                        <div class="stat-card">
-                            <h3>Medalhas</h3>
-                            <span id="total-medals">0</span>
-                        </div>
-                        <div class="stat-card">
-                            <h3>Unidades Concluídas</h3>
-                            <span id="completed-units">0/6</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Página de Unidade -->
+            <!-- Página da Unidade -->
             <div id="unit-page" class="page">
-                <header class="page-header">
+                <header class="unit-header">
                     <button id="back-to-home" class="btn-back">← Voltar</button>
                     <h1 id="unit-title">Unidade</h1>
-                    <button id="review-content" class="btn-review">🔄 Revisar Conteúdo</button>
                 </header>
-                
-                <div class="unit-content-area">
+
+                <div class="unit-content-wrapper">
                     <div class="stitch-unit-container">
-                        <img src="assets/stitch/Unidade1.png" alt="Stitch" id="unit-stitch" class="stitch-unit clickable">
+                        <img id="unit-stitch" src="" alt="Stitch" class="stitch-unit">
                         <div class="speech-bubble" id="unit-stitch-speech">
-                            <p>Vamos começar esta unidade!</p>
+                            <p>Vamos explorar esta unidade juntos!</p>
                         </div>
                     </div>
-                    
-                    <div id="questions-container" class="questions-container">
-                        <!-- Questões serão carregadas dinamicamente -->
+
+                    <div class="unit-tabs">
+                        <button class="tab-btn active" data-tab="mindmap">📊 Mapa Mental</button>
+                        <button class="tab-btn" data-tab="content">📖 Revisão</button>
+                        <button class="tab-btn" data-tab="questions">❓ Questões</button>
+                    </div>
+
+                    <div class="tab-content">
+                        <!-- Aba Mapa Mental -->
+                        <div id="mindmap-tab" class="tab-panel active">
+                            <div class="mindmap-container">
+                                <img id="mindmap-image" src="" alt="Mapa Mental" class="mindmap-img">
+                            </div>
+                        </div>
+
+                        <!-- Aba Conteúdo de Revisão -->
+                        <div id="content-tab" class="tab-panel">
+                            <div class="content-container">
+                                <div id="review-content">
+                                    <p>Carregando conteúdo de revisão...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Aba Questões -->
+                        <div id="questions-tab" class="tab-panel">
+                            <div class="questions-container">
+                                <div id="questions-content">
+                                    <p>Carregando questões...</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </main>
-
-        <!-- Painel de Revisão -->
-        <aside id="review-panel" class="review-panel">
-            <div class="review-header">
-                <h3>📖 Conteúdo de Revisão</h3>
-                <button id="close-review" class="btn-close">✕</button>
-            </div>
-            <div class="review-content">
-                <div class="mindmap-container">
-                    <img id="review-mindmap" src="" alt="Mapa Mental">
-                </div>
-                <div class="review-text" id="review-text-content">
-                    <!-- Conteúdo de revisão será carregado aqui -->
-                </div>
-            </div>
-        </aside>
-    </div>
-
-    <!-- Modal de Importação -->
-    <div id="import-modal" class="modal">
-        <div class="modal-content">
-            <h3>Importar Progresso</h3>
-            <p>Selecione um arquivo JSON com seu progresso:</p>
-            <input type="file" id="import-file" accept=".json">
-            <div class="modal-actions">
-                <button id="cancel-import" class="btn-secondary">Cancelar</button>
-                <button id="confirm-import" class="btn-primary">Importar</button>
-            </div>
-        </div>
     </div>
 
     <!-- Overlay -->
     <div id="overlay" class="overlay"></div>
 
-    <!-- JavaScript -->
-    <script src="assets/js/storage.js"></script>
-    <script src="assets/js/backup.js"></script>
-    <script src="assets/js/stitch.js"></script>
-    <script src="assets/js/gamification.js"></script>
-    <script src="assets/js/questions.js"></script>
-    <script src="assets/js/content.js"></script>
-    <script src="assets/js/app.js"></script>
+    <!-- JavaScript Simplificado -->
+    <script>
+        // Aplicação Simplificada
+        class SimpleGeografiaApp {
+            constructor() {
+                this.currentUnit = null;
+                this.sidebarOpen = false;
+                this.init();
+            }
+
+            init() {
+                this.bindEvents();
+                this.setupResponsive();
+            }
+
+            bindEvents() {
+                // Navegação das unidades
+                document.querySelectorAll('.unit-nav').forEach(nav => {
+                    nav.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        const unitId = parseInt(nav.dataset.unit);
+                        this.openUnit(unitId);
+                    });
+                });
+
+                // Botões das unidades na página inicial
+                document.querySelectorAll('.btn-unit').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        const card = e.target.closest('.unit-card');
+                        const unitId = parseInt(card.dataset.unit);
+                        this.openUnit(unitId);
+                    });
+                });
+
+                // Botão voltar
+                document.getElementById('back-to-home').addEventListener('click', () => {
+                    this.showHome();
+                });
+
+                // Botão home
+                document.getElementById('home-btn').addEventListener('click', (e) => {
+                    e.preventDefault();
+                    this.showHome();
+                });
+
+                // Abas da unidade
+                document.querySelectorAll('.tab-btn').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        const tabName = btn.dataset.tab;
+                        this.showTab(tabName);
+                        this.setActiveTab(btn);
+                    });
+                });
+
+                // Toggle sidebar (mobile)
+                document.getElementById('sidebar-toggle').addEventListener('click', () => {
+                    this.toggleSidebar();
+                });
+
+                // Overlay
+                document.getElementById('overlay').addEventListener('click', () => {
+                    this.closeSidebar();
+                });
+            }
+
+            openUnit(unitId) {
+                this.currentUnit = unitId;
+                this.loadUnitContent(unitId);
+                this.showPage('unit');
+                this.updateNavigation(unitId);
+            }
+
+            loadUnitContent(unitId) {
+                const unitTitles = {
+                    1: 'Demografia',
+                    2: 'Formação do Território Brasileiro',
+                    3: 'Trabalho e Transformações Espaciais',
+                    4: 'Espaço Urbano: Urbanização e Crescimento das Cidades',
+                    5: 'Mobilidade e Redes de Transporte e Comunicação',
+                    6: 'Matriz Energética Brasileira: Fontes Renováveis e Não Renováveis'
+                };
+
+                // Atualizar título
+                document.getElementById('unit-title').textContent = `Unidade ${unitId} - ${unitTitles[unitId]}`;
+
+                // Atualizar imagem do Stitch
+                document.getElementById('unit-stitch').src = `assets/stitch/Unidade${unitId}.png`;
+
+                // Carregar mapa mental
+                document.getElementById('mindmap-image').src = `assets/mindmaps/MindmapUnidade${unitId}-*.png`;
+
+                // Carregar conteúdo de revisão
+                this.loadReviewContent(unitId);
+
+                // Carregar questões
+                this.loadQuestions(unitId);
+            }
+
+            loadReviewContent(unitId) {
+                const reviewElement = document.getElementById('review-content');
+                reviewElement.innerHTML = `
+                    <h3>Conteúdo de Revisão - Unidade ${unitId}</h3>
+                    <p>📚 O conteúdo de revisão desta unidade está disponível nos arquivos fornecidos.</p>
+                    <p>🗺️ Consulte o mapa mental na aba anterior para uma visão geral dos conceitos.</p>
+                    <div class="review-placeholder">
+                        <p><strong>Arquivo de revisão:</strong> Revisao_Unidade_${unitId}_Geografia.docx</p>
+                        <p>Este conteúdo será integrado em uma próxima atualização da plataforma.</p>
+                    </div>
+                `;
+            }
+
+            loadQuestions(unitId) {
+                const questionsElement = document.getElementById('questions-content');
+                questionsElement.innerHTML = `
+                    <h3>Questões - Unidade ${unitId}</h3>
+                    <p>❓ As questões desta unidade estão disponíveis nos arquivos fornecidos.</p>
+                    <div class="questions-placeholder">
+                        <p><strong>Arquivo de questões:</strong> QuestoesgeografiaUnidade${unitId}.docx</p>
+                        <p>As questões interativas serão implementadas em uma próxima atualização.</p>
+                        <p>Por enquanto, consulte o arquivo original para as atividades.</p>
+                    </div>
+                `;
+            }
+
+            showPage(pageId) {
+                document.querySelectorAll('.page').forEach(page => {
+                    page.classList.remove('active');
+                });
+                document.getElementById(`${pageId}-page`).classList.add('active');
+            }
+
+            showHome() {
+                this.showPage('home');
+                this.currentUnit = null;
+                this.updateNavigation();
+            }
+
+            showTab(tabName) {
+                document.querySelectorAll('.tab-panel').forEach(panel => {
+                    panel.classList.remove('active');
+                });
+                document.getElementById(`${tabName}-tab`).classList.add('active');
+            }
+
+            setActiveTab(activeBtn) {
+                document.querySelectorAll('.tab-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                activeBtn.classList.add('active');
+            }
+
+            updateNavigation(activeUnit = null) {
+                document.querySelectorAll('.nav-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+
+                if (activeUnit) {
+                    const unitNav = document.querySelector(`[data-unit="${activeUnit}"]`);
+                    if (unitNav) unitNav.classList.add('active');
+                } else {
+                    document.getElementById('home-btn').classList.add('active');
+                }
+            }
+
+            toggleSidebar() {
+                this.sidebarOpen = !this.sidebarOpen;
+                document.getElementById('sidebar').classList.toggle('open');
+                document.getElementById('overlay').classList.toggle('active');
+            }
+
+            closeSidebar() {
+                this.sidebarOpen = false;
+                document.getElementById('sidebar').classList.remove('open');
+                document.getElementById('overlay').classList.remove('active');
+            }
+
+            setupResponsive() {
+                window.addEventListener('resize', () => {
+                    if (window.innerWidth > 768 && this.sidebarOpen) {
+                        this.closeSidebar();
+                    }
+                });
+            }
+        }
+
+        // Inicializar aplicação
+        document.addEventListener('DOMContentLoaded', () => {
+            new SimpleGeografiaApp();
+        });
+    </script>
 </body>
 </html>
 

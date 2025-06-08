@@ -16,6 +16,12 @@ class BackupManager {
      * Inicializa sistema de backup
      */
     init() {
+        // Aguarda storageManager estar disponível
+        if (typeof window.storageManager === 'undefined') {
+            setTimeout(() => this.init(), 100);
+            return;
+        }
+        
         this.startAutoBackup();
         this.bindEvents();
         this.cleanupOldBackups();

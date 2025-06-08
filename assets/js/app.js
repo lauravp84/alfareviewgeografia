@@ -29,6 +29,18 @@ class AlfaReviewApp {
      * Inicializa a aplicação
      */
     init() {
+        // Aguarda DOM estar pronto
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => this.initApp());
+        } else {
+            this.initApp();
+        }
+    }
+    
+    /**
+     * Inicializa aplicação após DOM pronto
+     */
+    initApp() {
         this.cacheElements();
         this.bindEvents();
         this.checkExistingStudent();
@@ -177,7 +189,11 @@ class AlfaReviewApp {
         // Fechar painel de revisão
         const closeReviewBtn = document.getElementById('close-review');
         if (closeReviewBtn) {
-            closeReviewBtn.addEventListener('click', () => this.closeReviewPanel());
+            closeReviewBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                this.closeReviewPanel();
+            });
         }
         
         // Exportar progresso
@@ -517,7 +533,11 @@ class AlfaReviewApp {
         if (reviewPanel) {
             reviewPanel.classList.remove('active');
         }
-        this.elements.overlay.classList.remove('active');
+        
+        // Remove overlay apenas se não há outros painéis abertos
+        if (!this.sidebarOpen) {
+            this.elements.overlay.classList.remove('active');
+        }
     }
     
     /**
@@ -535,11 +555,15 @@ class AlfaReviewApp {
     }
     
     /**
-     * Fecha todos os overlays
+     * Fecha overlays (sidebar, painéis, etc.)
      */
     closeOverlays() {
-        this.closeSidebar();
-        this.closeReviewPanel();
+        if (this.sidebarOpen) {
+            this.closeSidebar();
+        }
+        if (this.reviewPanelOpen) {
+            this.closeReviewPanel();
+        }
         this.closeModals();
     }
     
@@ -694,9 +718,14 @@ class AlfaReviewApp {
 }
 
 // Inicializa aplicação quando DOM estiver carregado
-document.addEventListener('DOMContentLoaded', () => {
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+        window.alfaReviewApp = new AlfaReviewApp();
+    });
+} else {
+    // DOM já está carregado
     window.alfaReviewApp = new AlfaReviewApp();
-});
+}
 
 // Exporta para uso global
 window.AlfaReviewApp = AlfaReviewApp;
