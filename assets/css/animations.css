@@ -1,0 +1,509 @@
+/* ===== ANIMAÇÕES E TRANSIÇÕES ===== */
+
+/* Animação de entrada do Stitch */
+@keyframes bounce {
+    0%, 20%, 53%, 80%, 100% {
+        transform: translate3d(0, 0, 0);
+    }
+    40%, 43% {
+        transform: translate3d(0, -15px, 0);
+    }
+    70% {
+        transform: translate3d(0, -7px, 0);
+    }
+    90% {
+        transform: translate3d(0, -2px, 0);
+    }
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+}
+
+/* Animação de pulso para elementos importantes */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+/* Animação de fade in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Animação de slide in da esquerda */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide-in-left {
+    animation: slideInLeft 0.5s ease-out;
+}
+
+/* Animação de slide in da direita */
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide-in-right {
+    animation: slideInRight 0.5s ease-out;
+}
+
+/* Animação de zoom in */
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.zoom-in {
+    animation: zoomIn 0.3s ease-out;
+}
+
+/* Animação de shake para feedback de erro */
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-5px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(5px);
+    }
+}
+
+.shake {
+    animation: shake 0.5s ease-in-out;
+}
+
+/* Animação de sucesso (check) */
+@keyframes checkmark {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.checkmark {
+    animation: checkmark 0.6s ease-out;
+}
+
+/* Animação de loading/spinner */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner {
+    animation: spin 1s linear infinite;
+}
+
+/* Animação de float para elementos flutuantes */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.float {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Animação de glow para elementos especiais */
+@keyframes glow {
+    0%, 100% {
+        box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(74, 144, 226, 0.8);
+    }
+}
+
+.glow {
+    animation: glow 2s ease-in-out infinite;
+}
+
+/* Animação de typewriter para texto */
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter 2s steps(40, end);
+}
+
+/* ===== TRANSIÇÕES ESPECÍFICAS ===== */
+
+/* Transição suave para mudança de telas */
+.screen-transition {
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Transição para cards de unidade */
+.unit-card {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.unit-card:hover {
+    animation: none;
+    transform: translateY(-8px) scale(1.02);
+}
+
+/* Transição para botões */
+.btn-primary, .btn-secondary, .btn-unit, .btn-back, .btn-review, .btn-close {
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Efeito ripple para botões */
+.btn-primary::before, .btn-secondary::before, .btn-unit::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s, height 0.3s;
+}
+
+.btn-primary:active::before, .btn-secondary:active::before, .btn-unit:active::before {
+    width: 300px;
+    height: 300px;
+}
+
+/* Transição para sidebar */
+.sidebar {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Transição para painel de revisão */
+.review-panel {
+    transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Transição para overlay */
+.overlay {
+    transition: opacity 0.3s ease;
+}
+
+.overlay.active {
+    opacity: 1;
+}
+
+/* Transição para modal */
+.modal {
+    transition: opacity 0.3s ease;
+}
+
+.modal.active {
+    opacity: 1;
+}
+
+.modal-content {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: scale(0.9);
+}
+
+.modal.active .modal-content {
+    transform: scale(1);
+}
+
+/* ===== ANIMAÇÕES DE PROGRESSO ===== */
+
+/* Animação da barra de progresso */
+@keyframes progressFill {
+    from {
+        width: 0%;
+    }
+}
+
+.progress-fill {
+    animation: progressFill 1s ease-out;
+}
+
+/* Animação de contagem de pontos */
+@keyframes countUp {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.count-up {
+    animation: countUp 0.8s ease-out;
+}
+
+/* ===== ANIMAÇÕES DE FEEDBACK ===== */
+
+/* Animação para resposta correta */
+@keyframes correctAnswer {
+    0% {
+        background-color: var(--success-color);
+        transform: scale(1);
+    }
+    50% {
+        background-color: #45D4B8;
+        transform: scale(1.05);
+    }
+    100% {
+        background-color: var(--success-color);
+        transform: scale(1);
+    }
+}
+
+.correct-answer {
+    animation: correctAnswer 0.6s ease-in-out;
+}
+
+/* Animação para resposta incorreta */
+@keyframes wrongAnswer {
+    0% {
+        background-color: var(--danger-color);
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    75% {
+        transform: translateX(5px);
+    }
+    100% {
+        background-color: var(--danger-color);
+        transform: translateX(0);
+    }
+}
+
+.wrong-answer {
+    animation: wrongAnswer 0.5s ease-in-out;
+}
+
+/* ===== ANIMAÇÕES DE MEDALHAS E CONQUISTAS ===== */
+
+/* Animação para nova medalha */
+@keyframes newMedal {
+    0% {
+        transform: scale(0) rotate(0deg);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.3) rotate(180deg);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1) rotate(360deg);
+        opacity: 1;
+    }
+}
+
+.new-medal {
+    animation: newMedal 1s ease-out;
+}
+
+/* Animação para estrelas */
+@keyframes starTwinkle {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.7;
+        transform: scale(1.1);
+    }
+}
+
+.star-twinkle {
+    animation: starTwinkle 1.5s ease-in-out infinite;
+}
+
+/* ===== ANIMAÇÕES DE ENTRADA DE PÁGINA ===== */
+
+/* Animação para entrada de página */
+.page-enter {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Animação para saída de página */
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+.page-exit {
+    animation: fadeOut 0.3s ease-in;
+}
+
+/* ===== ANIMAÇÕES ESPECÍFICAS DO STITCH ===== */
+
+/* Animação de piscada do Stitch */
+@keyframes blink {
+    0%, 90%, 100% {
+        transform: scaleY(1);
+    }
+    95% {
+        transform: scaleY(0.1);
+    }
+}
+
+.stitch-blink {
+    animation: blink 3s infinite;
+}
+
+/* Animação de aceno do Stitch */
+@keyframes wave {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(15deg);
+    }
+    75% {
+        transform: rotate(-15deg);
+    }
+}
+
+.stitch-wave {
+    animation: wave 1s ease-in-out 3;
+}
+
+/* ===== OTIMIZAÇÕES DE PERFORMANCE ===== */
+
+/* Usar transform3d para ativar aceleração de hardware */
+.hardware-accelerated {
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+/* Reduzir animações em dispositivos com pouca bateria */
+@media (prefers-reduced-motion: reduce) {
+    .bounce,
+    .pulse,
+    .float,
+    .glow,
+    .star-twinkle,
+    .stitch-blink {
+        animation: none;
+    }
+    
+    .unit-card:hover {
+        transform: none;
+    }
+    
+    .clickable:hover {
+        transform: none;
+    }
+}
+
+/* ===== ANIMAÇÕES DE LOADING ===== */
+
+/* Loading dots */
+@keyframes loadingDots {
+    0%, 20% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+}
+
+.loading-dots span {
+    display: inline-block;
+    animation: loadingDots 1.4s infinite;
+}
+
+.loading-dots span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.loading-dots span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+

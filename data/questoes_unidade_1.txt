@@ -1,0 +1,397 @@
+UNIDADE 1 – DEMOGRAFIA: O ESTUDO DA POPULAÇÃO
+ALFAREVIEW - GEOGRAFIA
+1. População absoluta é o número total de habitantes de uma área, como um país ou cidade. (U1P5)
+Gabarito: Verdadeiro
+2. Densidade demográfica é a mesma coisa que população absoluta. (U1P5)
+Gabarito: Falso
+3. Um país pode ser considerado populoso mesmo tendo baixa densidade demográfica. (U1P5)
+Gabarito: Verdadeiro
+4. A densidade demográfica é calculada dividindo-se a população absoluta pela área territorial. (U1P5)
+Gabarito: Verdadeiro
+5. Áreas próximas aos polos costumam ser muito povoadas por causa do clima favorável. (U1P6)
+Gabarito: Falso
+6. A densidade demográfica mostra se um local é muito ou pouco ocupado por pessoas. (U1P6)
+Gabarito: Verdadeiro
+7. Um local povoado é aquele que possui muitos habitantes por área, mesmo que a população absoluta seja pequena. (U1P6)
+Gabarito: Verdadeiro
+8. Um local populoso é sempre muito povoado. (U1P6)
+Gabarito: Falso
+9. As áreas mais próximas ao litoral brasileiro tendem a ser mais densamente povoadas que o interior. (U1P7)
+Gabarito: Verdadeiro
+10. O Brasil é um país populoso e também muito povoado. (U1P7)
+Gabarito: Falso
+11. Vazios demográficos são áreas com baixa densidade populacional. (U1P7)
+Gabarito: Verdadeiro
+12. O censo demográfico é realizado a cada 10 anos no Brasil. (U1P8)
+Gabarito: Verdadeiro
+13. O primeiro censo demográfico brasileiro foi realizado em 1872. (U1P8)
+Gabarito: Verdadeiro
+14. O crescimento da população mundial foi maior a partir do século XX. (U1P8)
+Gabarito: Verdadeiro
+15. O Brasil possui a sexta maior população do mundo, segundo o IBGE de 2023. (U1P8)
+Gabarito: Verdadeiro
+16. A densidade demográfica do Brasil em 2022 era de aproximadamente 23,86 hab/km². (U1P7)
+Gabarito: Verdadeiro
+17. O crescimento da população brasileira foi mais acelerado após 1950 devido ao crescimento das cidades e avanços industriais. (U1P13)
+Gabarito: Verdadeiro
+18. A taxa de natalidade indica o número de nascimentos em um determinado período. (U1P14)
+Gabarito: Verdadeiro
+19. A taxa de mortalidade indica o número de óbitos em um determinado período. (U1P14)
+Gabarito: Verdadeiro
+20. O crescimento vegetativo é calculado subtraindo a taxa de mortalidade da taxa de natalidade. (U1P14)
+Gabarito: Verdadeiro
+21. O crescimento natural considera apenas nascimentos e mortes. (U1P14)
+Gabarito: Verdadeiro
+22. O que é população absoluta? (U1P5)
+a) O número de habitantes por quilômetro quadrado
+b) O número total de habitantes de uma área
+c) O número de cidades de um país
+d) O número de habitantes acima de 50 milhões
+Gabarito: b
+23. Sobre densidade demográfica, marque a alternativa correta: (U1P5)
+a) É a quantidade de habitantes de um local dividida pelo tamanho da área ocupada
+b) É o número de cidades em um país
+c) É o número total de habitantes do planeta
+d) É a quantidade de água disponível em uma região
+Gabarito: a
+24. Um país é considerado populoso quando: (U1P5)
+a) Tem alta densidade demográfica
+b) Tem população absoluta elevada, geralmente acima de 50 milhões de habitantes
+c) Tem poucas cidades
+d) Tem clima hostil
+Gabarito: b
+25. O que pode influenciar a distribuição da população em um território? (U1P6)
+a) Apenas fatores naturais
+b) Apenas fatores econômicos
+c) Fatores naturais, econômicos, sociais, históricos e tecnológicos
+d) Apenas a quantidade de cidades
+Gabarito: c
+26. Quando um espaço apresenta uma grande quantidade de pessoas por área, dizemos que ele é: (U1P6)
+a) Populoso
+b) Povoado
+c) Vazio
+d) Desabitado
+Gabarito: b
+27. Se um local tem uma população muito numerosa, mas não está bem distribuída, ele é considerado: (U1P6)
+a) Povoado
+b) Populoso
+c) Desabitado
+d) Vazio
+Gabarito: b
+28. O que o censo demográfico permite analisar? (U1P13)
+a) Apenas o número de cidades do país
+b) Apenas a quantidade de indústrias
+c) As características da população brasileira
+d) Apenas o número de escolas
+Gabarito: c
+29. O crescimento vegetativo é resultado de: (U1P14)
+a) Taxa de natalidade menos taxa de mortalidade
+b) Taxa de mortalidade mais taxa de natalidade
+c) Taxa de natalidade vezes taxa de mortalidade
+d) Apenas taxa de natalidade
+Gabarito: a
+30. Marque V (verdadeiro) ou F (falso) para as afirmativas a seguir sobre densidade demográfica: (U1P5, U1P6)
+a) (V) A densidade demográfica é calculada dividindo a população absoluta pela área territorial.
+b) (F) Densidade demográfica indica apenas o número total de habitantes de um país.
+c) (V) Locais com clima ameno e disponibilidade de água tendem a ser mais povoados.
+d) (F) Países com população absoluta elevada são sempre muito povoados.
+31. Sobre povoado e populoso: (U1P6)
+a) (V) Um local povoado tem alta densidade demográfica, mesmo que a população absoluta seja pequena.
+b) (V) Um local populoso tem grande população absoluta, mais pode não ser muito povoado.
+c) (F) Todos os países populoso são também muito povoados.
+32. Analise a tabela e marque com (X) se o país é populoso ou povoado: (U1P12)
+a) Bangladesh: (X) Populoso (X) Povoado
+b) Brasil: (X) Populoso
+c) Rússia: (X) Populoso
+Nota: Bangladesh é populoso e povoado (alta densidade demográfica); Brasil e Rússia são populosos (grande população absoluta, mas nem sempre alta densidade).
+33. Sobre o crescimento da população brasileira: (U1P13)
+a) (V) O crescimento foi mais acelerado após 1950 devido ao crescimento das cidades.
+b) (V) O desenvolvimento industrial e médico contribuiu para o aumento populacional.
+c) (V) O aumento do custo de vida e a participação das mulheres no mercado de trabalho contribuíram para a diminuição das taxas de natalidade.
+34. Sobre taxas demográficas: (U1P14)
+a) (V) A taxa de natalidade mostra quantos nascimentos ocorreram em um período.
+b) (V) A taxa de mortalidade mostra quantos óbitos ocorreram em um período.
+c) (V) O crescimento vegetativo é a diferença entre taxa de natalidade e taxa de mortalidade.
+35. População absoluta é o número total de pessoas em um lugar, enquanto população relativa é a quantidade de pessoas dividida pela área. (U1P11)
+Gabarito: Verdadeiro
+36. Densidade demográfica é calculada dividindo a população absoluta pela área territorial. (U1P11)
+Gabarito: Verdadeiro
+37. O crescimento da população mundial tem sido constante e linear desde o ano 1600. (U1P11)
+Gabarito: Falso
+38. A população da África é projetada para crescer mais rapidamente que a da Ásia até 2100. (U1P12)
+Gabarito: Verdadeiro
+39. Bangladesh é o país com maior densidade demográfica entre os listados na tabela. (U1P12)
+Gabarito: Verdadeiro
+40. O Brasil tem uma densidade demográfica maior que a Rússia, segundo a tabela. (U1P12)
+Gabarito: Verdadeiro
+41. O IBGE is o órgão responsável por pesquisas sobre o comportamento da população no Brasil. (U1P13)
+Gabarito: Verdadeiro
+42. O censo demográfico é uma pesquisa que coleta informações sobre todos os habitantes do país. (U1P13)
+Gabarito: Verdadeiro
+43. O crescimento populacional brasileiro acelerou a partir de 1950 devido ao desenvolvimento industrial, médico e sanitário. (U1P13)
+Gabarito: Verdadeiro
+44. A participação das mulheres no mercado de trabalho e o aumento do custo de vida têm contribuído para a redução da taxa de natalidade no Brasil. (U1P13)
+Gabarito: Verdadeiro
+45. A taxa de natalidade indica o número de óbitos em um determinado período. (U1P14)
+Gabarito: Falso
+46. A taxa de mortalidade indica o número de nascimentos em um determinado período. (U1P14)
+Gabarito: Falso
+47. O crescimento vegetativo é a diferença entre a taxa de natalidade e a taxa de mortalidade. (U1P14)
+Gabarito: Verdadeiro
+48. Qual é a definição de população absoluta? (U1P11)
+a) Número de habitantes por quilômetro quadrado
+b) Número total de pessoas em um lugar
+c) Número de cidades em um país
+d) Quantidade de nascimentos em um ano
+Gabarito: b
+49. Como é calculada a densidade demográfica? (U1P11)
+a) Dividindo a área territorial pela população absoluta
+b) Multiplicando a população absoluta pela área territorial
+c) Dividindo a população absoluta pela área territorial
+d) Somando a população absoluta com a área territorial
+Gabarito: c
+50. Qual continente apresenta maior crescimento populacional projetado até 2100? (U1P12)
+a) Europa
+b) América do Norte
+c) África
+d) Oceania
+Gabarito: c
+51. Qual país apresenta a maior densidade demográfica segundo a tabela? (U1P12)
+a) Índia
+b) Bangladesh
+c) China
+d) Brasil
+Gabarito: b
+52. O que é o IBGE? (U1P13)
+a) Instituto Brasileiro de Geografia e Estatística
+b) Instituto Brasileiro de Gestão Educacional
+c) Instituto Brasileiro de Geologia e Energia
+d) Instituto Brasileiro de Gestão Econômica
+Gabarito: a
+53. O que é o censo demográfico? (U1P13)
+a) Pesquisa sobre o clima do país
+b) Pesquisa amostral sobre características da população
+c) Pesquisa sobre as indústrias do país
+d) Pesquisa sobre as cidades turísticas
+Gabarito: b
+54. A partir de que ano a população brasileira começou a crescer mais rapidamente? (U1P13)
+a) 1872
+b) 1950
+c) 2000
+d) 2022
+Gabarito: b
+55. Qual indicador mostra o número de nascimentos em um determinado período? (U1P14)
+a) Taxa de mortalidade
+b) Taxa de natalidade
+c) Crescimento vegetativo
+d) Taxa de urbanização
+Gabarito: b
+56. O que o crescimento vegetativo representa? (U1P14)
+a) Diferença entre nascimentos e mortes
+b) Soma de nascimentos e mortes
+c) Número total da população
+d) Número de migrantes
+Gabarito: a
+57. Sobre o crescimento da população mundial e dos continentes: (U1P11, U1P12)
+a) (V) O crescimento da população mundial tem sido acelerado nos últimos anos.
+b) (F) A população da Ásia deve ultrapassar a da África até 2100.
+c) (V) O crescimento populacional não é homogêneo entre os continentes.
+d) (F) A Europa apresenta o maior crescimento populacional projetado.
+58. Sobre o IBGE e o censo demográfico: (U1P13)
+a) (V) O IBGE é responsável por pesquisas sobre a população brasileira.
+b) (V) O censo demográfico é realizado a cada 10 anos.
+c) (V) O censo coleta dados de todos os habitantes do país.
+d) (F) O censo não é importante para o planejamento do governo.
+59. Sobre taxas demográficas: (U1P14)
+a) (V) Taxa de natalidade indica o número de nascimentos.
+b) (V) Taxa de mortalidade indica o número de óbitos.
+c) (V) Crescimento vegetativo é a diferença entre taxa de natalidade e mortalidade.
+d) (F) Crescimento vegetativo considera migração.
+60. Migração é o deslocamento entre unidades geográficas com mudança de residência permanente. (U1P15)
+Gabarito: Verdadeiro
+61. Emigração is a entrada em um novo local. (U1P15)
+Gabarito: Falso
+62. Imigração é a saída de pessoas do seu local de origem. (U1P15)
+Gabarito: Falso
+63. Quando um local recebe muitas pessoas, a população tende a diminuir. (U1P15)
+Gabarito: Falso
+64. Fatores atrativos são características de um local que tornam interessante para os migrantes. (U1P16)
+Gabarito: Verdadeiro
+65. Fatores repulsivos são motivos que fazem as pessoas quererem permanecer em um local. (U1P16)
+Gabarito: Falso
+66. Migração voluntária ocorre quando a pessoa decide se deslocar por vontade própria. (U1P16)
+Gabarito: Verdadeiro
+67. Migração forçada acontece por motivo de força maior, como guerras ou catástrofes naturais. (U1P16)
+Gabarito: Verdadeiro
+68. Migração interna ocorre entre diferentes países. (U1P16)
+Gabarito: Falso
+69. Migração internacional envolve mudança de país. (U1P16)
+Gabarito: Verdadeiro
+70. Migração temporária é quando não há intenção de retornar ao local de origem. (U1P16)
+Gabarito: Falso
+71. O Índice de Desenvolvimento Humano (IDH) é um indicador de qualidade de vida. (U1P17)
+Gabarito: Verdadeiro
+72. Países com alto IDH geralmente atraem mais imigrantes. (U1P17)
+Gabarito: Verdadeiro
+73. A diversidade étnico-racial brasileira é resultado da miscigenação. (U1P18)
+Gabarito: Verdadeiro
+74. O termo étnico está relacionado a traços físicos das pessoas. (U1P18)
+Gabarito: Falso
+75. Raça diz respeito aos hábitos e costumes de um povo. (U1P18)
+Gabarito: Falso
+76. Todos os seres humanos pertencem à mesma raça: a raça humana. (U1P18)
+Gabarito: Verdadeiro
+77. O que é emigração? (U1P15)
+a) Entrada em um novo local
+b) Saída do local de origem
+c) Crescimento da população
+d) Mudança de costumes
+Gabarito: b
+78. O que é imigração? (U1P15)
+a) Saída do local de origem
+b) Entrada em um novo local
+c) Diminuição da população
+d) Aumento de custos
+Gabarito: b
+79. Qual alternativa apresenta um fator atrativo para migração? (U1P16)
+a) Violência
+b) Poluição
+c) Oportunidade de emprego
+d) Desemprego
+Gabarito: c
+80. Qual alternativa apresenta um fator repulsivo para migração? (U1P16)
+a) Segurança
+b) Boa infraestrutura
+c) Violência
+d) Serviços básicos
+Gabarito: c
+81. Migração voluntária ocorre quando: (U1P16)
+a) A pessoa é obrigada a sair por guerras
+b) A pessoa decide se deslocar por vontade própria
+c) A pessoa é expulsa por catástrofes naturais
+d) A pessoa é forçada por perseguições
+Gabarito: b
+82. Migração internacional é aquela que: (U1P16)
+a) Acontece dentro do mesmo país
+b) Envolve mudança de país
+c) É sempre temporária
+d) Só ocorre por motivos de trabalho
+Gabarito: b
+83. O IDH analisa aspectos como: (U1P17)
+a) Apenas economia
+b) Educação, saúde e economia
+c) Apenas saúde
+d) Apenas educação
+Gabarito: b
+84. Países com alto IDH tendem a: (U1P17)
+a) Perder população
+b) Atrair imigrantes
+c) Ter pouca diversidade cultural
+d) Ter baixa expectativa de vida
+Gabarito: b
+85. A diversidade étnico-racial brasileira é resultado de: (U1P18)
+a) Segregação
+b) Miscigenação
+c) Isolamento
+d) Exclusão
+Gabarito: b
+86. Sobre migração, marque V (verdadeiro) ou F (falso): (U1P15, U1P16)
+a) (V) Emigração é a saída do local de origem.
+b) (V) Imigração é a entrada em um novo local.
+c) (V) Migração interna ocorre dentro do mesmo país.
+d) (F) Migração internacional ocorre entre cidades do mesmo estado.
+87. Sobre fatores migratórios: (U1P16)
+a) (V) Fatores atrativos são oportunidades de emprego, segurança e infraestrutura.
+b) (V) Fatores repulsivos incluem violência, desemprego e poluição.
+c) (V) Migração voluntária ocorre por decisão própria.
+d) (F) Migração forçada ocorre apenas por vontade do migrante.
+88. Sobre IDH e migração: (U1P17)
+a) (V) Países com alto IDH costumam receber mais imigrantes.
+b) (F) O IDH analisa apenas aspectos econômicos.
+c) (V) A qualidade de vida influencia a migração.
+d) (F) Países com baixo IDH atraem mais imigrantes.
+89. Sobre diversidade étnico-racial: (U1P18)
+a) (V) A miscigenação é a mistura entre etnias distintas.
+b) (V) Étnico refere-se a hábitos e costumes.
+c) (V) Raça diz respeito a traços biológicos.
+d) (V) Todos pertencemos à raça humana
+111. (Falso/Verdadeiro, U1P21)
+O Brasil é formado apenas por descendentes de europeus.
+Gabarito: Falso
+112. (Múltipla escolha, U1P21)
+Qual das alternativas apresenta corretamente um dos principais grupos étnicos que formaram a população brasileira?
+a) Apenas indígenas
+b) Apenas africanos
+c) Indígenas, africanos e europeus
+d) Apenas asiáticos
+Gabarito: c) Indígenas, africanos e europeus
+113. (Múltipla assertiva, U1P21)
+Sobre a influência africana no Brasil, marque V para verdadeiro e F para falso:
+a) (V) A cultura africana influenciou a culinária, a música e as religiões brasileiras.
+b) (F) Os africanos não contribuíram para a formação da cultura brasileira.
+c) (V) A presença africana está presente em festas populares do Brasil.
+d) (F) A influência africana se restringe apenas ao estado da Bahia.
+114. (Falso/Verdadeiro, U1P22)
+A imigração de europeus para o Brasil ocorreu principalmente no século XIX e início do século XX. (U1P22)
+Gabarito: Verdadeiro
+115. (Múltipla escolha, U1P22)
+Qual destes povos NÃO está entre os principais grupos de imigrantes europeus que vieram para o Brasil?
+a) Italianos
+b) Alemães
+c) Japoneses
+d) Portugueses
+Gabarito: c) Japoneses
+116. (Múltipla assertiva, U1P22)
+Sobre a imigração europeia no Brasil, marque V para verdadeiro e F para falso:
+a) (V) Italianos, alemães e portugueses vieram em grande número para o Brasil.
+b) (F) Todos os imigrantes europeus vieram para o Brasil no século XVI.
+c) (V) Os imigrantes europeus influenciaram a cultura e a economia de várias regiões brasileiras.
+d) (F) A imigração europeia não teve impacto na culinária brasileira.
+117. (Falso/Verdadeiro, U1P23)
+A etnia parda é resultado da mistura de diferentes grupos étnicos no Brasil.
+Gabarito: Verdadeiro
+118. (Múltipla escolha, U1P23)
+A etnia amarela no Brasil é composta principalmente por descendentes de:
+a) Africanos
+b) Europeus
+c) Asiáticos
+d) Indígenas
+Gabarito: c) Asiáticos
+119. (Múltipla assertiva, U1P23)
+Sobre a diversidade étnica brasileira, marque V para verdadeiro e F para falso:
+a) (V) O Brasil é um dos países mais miscigenados do mundo.
+b) (F) A população indígena é atualmente o maior grupo étnico do Brasil.
+c) (V) A etnia branca ainda representa um grupo importante na sociedade brasileira.
+d) (F) A etnia parda é composta apenas por descendentes de europeus.
+120. (Falso/Verdadeiro, U1P24)
+A violência urbana é considerada um fator atrativo para migração.
+Gabarito: Falso
+121. (Múltipla escolha, U1P24)
+O que é considerado um fator repulsivo para a migração?
+a) Oferta de empregos
+b) Violência urbana
+c) Escolas de qualidade
+d) Disponibilidade de alimento
+Gabarito: b) Violência urbana
+122. (Múltipla assertiva, U1P24)
+Sobre fatores migratórios, marque V para verdadeiro e F para falso:
+a) (V) Fatores atrativos são aqueles que atraem pessoas para um local.
+b) (F) Fatores repulsivos atraem pessoas para um local.
+c) (V) A falta de saneamento pode ser considerada um fator repulsivo.
+d) (V) A presença de escolas de qualidade é um fator atrativo.
+123. (Falso/Verdadeiro, U1P24)
+Movimento migratório interno ocorre entre diferentes países.
+Gabarito: Falso
+124. (Múltipla escolha, U1P24)
+Quando uma pessoa muda de cidade dentro do mesmo país, ela está realizando:
+a) Migração internacional
+b) Migração interna
+c) Emigração
+d) Diáspora
+Gabarito: b) Migração interna
+125. (Múltipla assertiva, U1P24)
+Sobre migração, marque V para verdadeiro e F para falso:
+a) (V) Emigração é a saída de pessoas de um lugar.
+b) (V) Imigração é a chegada de pessoas em um lugar.
+c) (F) Migração internacional ocorre dentro do mesmo país.
+d) (V) Migração interna ocorre dentro do território nacional.

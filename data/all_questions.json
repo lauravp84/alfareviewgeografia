@@ -1,0 +1,2557 @@
+{
+  "unidade_1": [
+    {
+      "question": "1. População absoluta é o número total de habitantes de uma área, como um país ou cidade. (U1P5)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "2. Densidade demográfica é a mesma coisa que população absoluta. (U1P5)",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "3. Um país pode ser considerado populoso mesmo tendo baixa densidade demográfica. (U1P5)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "4. A densidade demográfica é calculada dividindo-se a população absoluta pela área territorial. (U1P5)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "5. Áreas próximas aos polos costumam ser muito povoadas por causa do clima favorável. (U1P6)",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "6. A densidade demográfica mostra se um local é muito ou pouco ocupado por pessoas. (U1P6)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "7. Um local povoado é aquele que possui muitos habitantes por área, mesmo que a população absoluta seja pequena. (U1P6)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "8. Um local populoso é sempre muito povoado. (U1P6)",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "9. As áreas mais próximas ao litoral brasileiro tendem a ser mais densamente povoadas que o interior. (U1P7)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "10. O Brasil é um país populoso e também muito povoado. (U1P7)",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "11. Vazios demográficos são áreas com baixa densidade populacional. (U1P7)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "12. O censo demográfico é realizado a cada 10 anos no Brasil. (U1P8)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "13. O primeiro censo demográfico brasileiro foi realizado em 1872. (U1P8)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "14. O crescimento da população mundial foi maior a partir do século XX. (U1P8)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "15. O Brasil possui a sexta maior população do mundo, segundo o IBGE de 2023. (U1P8)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "16. A densidade demográfica do Brasil em 2022 era de aproximadamente 23,86 hab/km². (U1P7)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "17. O crescimento da população brasileira foi mais acelerado após 1950 devido ao crescimento das cidades e avanços industriais. (U1P13)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "18. A taxa de natalidade indica o número de nascimentos em um determinado período. (U1P14)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "19. A taxa de mortalidade indica o número de óbitos em um determinado período. (U1P14)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "20. O crescimento vegetativo é calculado subtraindo a taxa de mortalidade da taxa de natalidade. (U1P14)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "21. O crescimento natural considera apenas nascimentos e mortes. (U1P14)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "22. O que é população absoluta? (U1P5)",
+      "options": [
+        "a) O número de habitantes por quilômetro quadrado",
+        "b) O número total de habitantes de uma área",
+        "c) O número de cidades de um país",
+        "d) O número de habitantes acima de 50 milhões"
+      ],
+      "answer": "b",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "23. Sobre densidade demográfica, marque a alternativa correta: (U1P5)",
+      "options": [
+        "a) É a quantidade de habitantes de um local dividida pelo tamanho da área ocupada",
+        "b) É o número de cidades em um país",
+        "c) É o número total de habitantes do planeta",
+        "d) É a quantidade de água disponível em uma região"
+      ],
+      "answer": "a",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "24. Um país é considerado populoso quando: (U1P5)",
+      "options": [
+        "a) Tem alta densidade demográfica",
+        "b) Tem população absoluta elevada, geralmente acima de 50 milhões de habitantes",
+        "c) Tem poucas cidades",
+        "d) Tem clima hostil"
+      ],
+      "answer": "b",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "25. O que pode influenciar a distribuição da população em um território? (U1P6)",
+      "options": [
+        "a) Apenas fatores naturais",
+        "b) Apenas fatores econômicos",
+        "c) Fatores naturais, econômicos, sociais, históricos e tecnológicos",
+        "d) Apenas a quantidade de cidades"
+      ],
+      "answer": "c",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "26. Quando um espaço apresenta uma grande quantidade de pessoas por área, dizemos que ele é: (U1P6)",
+      "options": [
+        "a) Populoso",
+        "b) Povoado",
+        "c) Vazio",
+        "d) Desabitado"
+      ],
+      "answer": "b",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "27. Se um local tem uma população muito numerosa, mas não está bem distribuída, ele é considerado: (U1P6)",
+      "options": [
+        "a) Povoado",
+        "b) Populoso",
+        "c) Desabitado",
+        "d) Vazio"
+      ],
+      "answer": "b",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "28. O que o censo demográfico permite analisar? (U1P13)",
+      "options": [
+        "a) Apenas o número de cidades do país",
+        "b) Apenas a quantidade de indústrias",
+        "c) As características da população brasileira",
+        "d) Apenas o número de escolas"
+      ],
+      "answer": "c",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "29. O crescimento vegetativo é resultado de: (U1P14)",
+      "options": [
+        "a) Taxa de natalidade menos taxa de mortalidade",
+        "b) Taxa de mortalidade mais taxa de natalidade",
+        "c) Taxa de natalidade vezes taxa de mortalidade",
+        "d) Apenas taxa de natalidade"
+      ],
+      "answer": "a",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "35. População absoluta é o número total de pessoas em um lugar, enquanto população relativa é a quantidade de pessoas dividida pela área. (U1P11)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "36. Densidade demográfica é calculada dividindo a população absoluta pela área territorial. (U1P11)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "37. O crescimento da população mundial tem sido constante e linear desde o ano 1600. (U1P11)",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "38. A população da África é projetada para crescer mais rapidamente que a da Ásia até 2100. (U1P12)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "39. Bangladesh é o país com maior densidade demográfica entre os listados na tabela. (U1P12)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "40. O Brasil tem uma densidade demográfica maior que a Rússia, segundo a tabela. (U1P12)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "41. O IBGE is o órgão responsável por pesquisas sobre o comportamento da população no Brasil. (U1P13)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "42. O censo demográfico é uma pesquisa que coleta informações sobre todos os habitantes do país. (U1P13)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "43. O crescimento populacional brasileiro acelerou a partir de 1950 devido ao desenvolvimento industrial, médico e sanitário. (U1P13)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "44. A participação das mulheres no mercado de trabalho e o aumento do custo de vida têm contribuído para a redução da taxa de natalidade no Brasil. (U1P13)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "45. A taxa de natalidade indica o número de óbitos em um determinado período. (U1P14)",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "46. A taxa de mortalidade indica o número de nascimentos em um determinado período. (U1P14)",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "47. O crescimento vegetativo é a diferença entre a taxa de natalidade e a taxa de mortalidade. (U1P14)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "48. Qual é a definição de população absoluta? (U1P11)",
+      "options": [
+        "a) Número de habitantes por quilômetro quadrado",
+        "b) Número total de pessoas em um lugar",
+        "c) Número de cidades em um país",
+        "d) Quantidade de nascimentos em um ano"
+      ],
+      "answer": "b",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "49. Como é calculada a densidade demográfica? (U1P11)",
+      "options": [
+        "a) Dividindo a área territorial pela população absoluta",
+        "b) Multiplicando a população absoluta pela área territorial",
+        "c) Dividindo a população absoluta pela área territorial",
+        "d) Somando a população absoluta com a área territorial"
+      ],
+      "answer": "c",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "50. Qual continente apresenta maior crescimento populacional projetado até 2100? (U1P12)",
+      "options": [
+        "a) Europa",
+        "b) América do Norte",
+        "c) África",
+        "d) Oceania"
+      ],
+      "answer": "c",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "51. Qual país apresenta a maior densidade demográfica segundo a tabela? (U1P12)",
+      "options": [
+        "a) Índia",
+        "b) Bangladesh",
+        "c) China",
+        "d) Brasil"
+      ],
+      "answer": "b",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "52. O que é o IBGE? (U1P13)",
+      "options": [
+        "a) Instituto Brasileiro de Geografia e Estatística",
+        "b) Instituto Brasileiro de Gestão Educacional",
+        "c) Instituto Brasileiro de Geologia e Energia",
+        "d) Instituto Brasileiro de Gestão Econômica"
+      ],
+      "answer": "a",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "53. O que é o censo demográfico? (U1P13)",
+      "options": [
+        "a) Pesquisa sobre o clima do país",
+        "b) Pesquisa amostral sobre características da população",
+        "c) Pesquisa sobre as indústrias do país",
+        "d) Pesquisa sobre as cidades turísticas"
+      ],
+      "answer": "b",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "54. A partir de que ano a população brasileira começou a crescer mais rapidamente? (U1P13)",
+      "options": [
+        "a) 1872",
+        "b) 1950",
+        "c) 2000",
+        "d) 2022"
+      ],
+      "answer": "b",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "55. Qual indicador mostra o número de nascimentos em um determinado período? (U1P14)",
+      "options": [
+        "a) Taxa de mortalidade",
+        "b) Taxa de natalidade",
+        "c) Crescimento vegetativo",
+        "d) Taxa de urbanização"
+      ],
+      "answer": "b",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "56. O que o crescimento vegetativo representa? (U1P14)",
+      "options": [
+        "a) Diferença entre nascimentos e mortes",
+        "b) Soma de nascimentos e mortes",
+        "c) Número total da população",
+        "d) Número de migrantes"
+      ],
+      "answer": "a",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "60. Migração é o deslocamento entre unidades geográficas com mudança de residência permanente. (U1P15)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "61. Emigração is a entrada em um novo local. (U1P15)",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "62. Imigração é a saída de pessoas do seu local de origem. (U1P15)",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "63. Quando um local recebe muitas pessoas, a população tende a diminuir. (U1P15)",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "64. Fatores atrativos são características de um local que tornam interessante para os migrantes. (U1P16)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "65. Fatores repulsivos são motivos que fazem as pessoas quererem permanecer em um local. (U1P16)",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "66. Migração voluntária ocorre quando a pessoa decide se deslocar por vontade própria. (U1P16)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "67. Migração forçada acontece por motivo de força maior, como guerras ou catástrofes naturais. (U1P16)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "68. Migração interna ocorre entre diferentes países. (U1P16)",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "69. Migração internacional envolve mudança de país. (U1P16)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "70. Migração temporária é quando não há intenção de retornar ao local de origem. (U1P16)",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "71. O Índice de Desenvolvimento Humano (IDH) é um indicador de qualidade de vida. (U1P17)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "72. Países com alto IDH geralmente atraem mais imigrantes. (U1P17)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "73. A diversidade étnico-racial brasileira é resultado da miscigenação. (U1P18)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "74. O termo étnico está relacionado a traços físicos das pessoas. (U1P18)",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "75. Raça diz respeito aos hábitos e costumes de um povo. (U1P18)",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "76. Todos os seres humanos pertencem à mesma raça: a raça humana. (U1P18)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "77. O que é emigração? (U1P15)",
+      "options": [
+        "a) Entrada em um novo local",
+        "b) Saída do local de origem",
+        "c) Crescimento da população",
+        "d) Mudança de costumes"
+      ],
+      "answer": "b",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "78. O que é imigração? (U1P15)",
+      "options": [
+        "a) Saída do local de origem",
+        "b) Entrada em um novo local",
+        "c) Diminuição da população",
+        "d) Aumento de custos"
+      ],
+      "answer": "b",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "79. Qual alternativa apresenta um fator atrativo para migração? (U1P16)",
+      "options": [
+        "a) Violência",
+        "b) Poluição",
+        "c) Oportunidade de emprego",
+        "d) Desemprego"
+      ],
+      "answer": "c",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "80. Qual alternativa apresenta um fator repulsivo para migração? (U1P16)",
+      "options": [
+        "a) Segurança",
+        "b) Boa infraestrutura",
+        "c) Violência",
+        "d) Serviços básicos"
+      ],
+      "answer": "c",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "81. Migração voluntária ocorre quando: (U1P16)",
+      "options": [
+        "a) A pessoa é obrigada a sair por guerras",
+        "b) A pessoa decide se deslocar por vontade própria",
+        "c) A pessoa é expulsa por catástrofes naturais",
+        "d) A pessoa é forçada por perseguições"
+      ],
+      "answer": "b",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "82. Migração internacional é aquela que: (U1P16)",
+      "options": [
+        "a) Acontece dentro do mesmo país",
+        "b) Envolve mudança de país",
+        "c) É sempre temporária",
+        "d) Só ocorre por motivos de trabalho"
+      ],
+      "answer": "b",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "83. O IDH analisa aspectos como: (U1P17)",
+      "options": [
+        "a) Apenas economia",
+        "b) Educação, saúde e economia",
+        "c) Apenas saúde",
+        "d) Apenas educação"
+      ],
+      "answer": "b",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "84. Países com alto IDH tendem a: (U1P17)",
+      "options": [
+        "a) Perder população",
+        "b) Atrair imigrantes",
+        "c) Ter pouca diversidade cultural",
+        "d) Ter baixa expectativa de vida"
+      ],
+      "answer": "b",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "85. A diversidade étnico-racial brasileira é resultado de: (U1P18)",
+      "options": [
+        "a) Segregação",
+        "b) Miscigenação",
+        "c) Isolamento",
+        "d) Exclusão"
+      ],
+      "answer": "b",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "111. (Falso/Verdadeiro, U1P21) O Brasil é formado apenas por descendentes de europeus.",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "112. (Múltipla escolha, U1P21) Qual das alternativas apresenta corretamente um dos principais grupos étnicos que formaram a população brasileira?",
+      "options": [
+        "a) Apenas indígenas",
+        "b) Apenas africanos",
+        "c) Indígenas, africanos e europeus",
+        "d) Apenas asiáticos"
+      ],
+      "answer": "c) Indígenas, africanos e europeus",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "114. (Falso/Verdadeiro, U1P22) A imigração de europeus para o Brasil ocorreu principalmente no século XIX e início do século XX. (U1P22)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "115. (Múltipla escolha, U1P22) Qual destes povos NÃO está entre os principais grupos de imigrantes europeus que vieram para o Brasil?",
+      "options": [
+        "a) Italianos",
+        "b) Alemães",
+        "c) Japoneses",
+        "d) Portugueses"
+      ],
+      "answer": "c) Japoneses",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "117. (Falso/Verdadeiro, U1P23) A etnia parda é resultado da mistura de diferentes grupos étnicos no Brasil.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "118. (Múltipla escolha, U1P23) A etnia amarela no Brasil é composta principalmente por descendentes de:",
+      "options": [
+        "a) Africanos",
+        "b) Europeus",
+        "c) Asiáticos",
+        "d) Indígenas"
+      ],
+      "answer": "c) Asiáticos",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "120. (Falso/Verdadeiro, U1P24) A violência urbana é considerada um fator atrativo para migração.",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "121. (Múltipla escolha, U1P24) O que é considerado um fator repulsivo para a migração?",
+      "options": [
+        "a) Oferta de empregos",
+        "b) Violência urbana",
+        "c) Escolas de qualidade",
+        "d) Disponibilidade de alimento"
+      ],
+      "answer": "b) Violência urbana",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "123. (Falso/Verdadeiro, U1P24) Movimento migratório interno ocorre entre diferentes países.",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "124. (Múltipla escolha, U1P24) Quando uma pessoa muda de cidade dentro do mesmo país, ela está realizando:",
+      "options": [
+        "a) Migração internacional",
+        "b) Migração interna",
+        "c) Emigração",
+        "d) Diáspora"
+      ],
+      "answer": "b) Migração interna",
+      "type": "multiple_choice"
+    }
+  ],
+  "unidade_2": [
+    {
+      "question": "138. (Falso/Verdadeiro, U2P28) O território brasileiro sempre teve o mesmo formato desde o início de sua história. (U2P28)",
+      "options": null,
+      "answer": "Falso4",
+      "type": "true_false"
+    },
+    {
+      "question": "139. (Múltipla escolha, U2P28) O que é fronteira, segundo o conceito geográfico apresentado?",
+      "options": [
+        "a) O centro de um país",
+        "b) O limite do território de um país",
+        "c) O ponto mais alto de uma montanha",
+        "d) O local onde se encontra o mar"
+      ],
+      "answer": "b) O limite do território de um país (U2P28)4",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "140. (Falso/Verdadeiro, U2P28) As fronteiras entre países são sempre naturais e podem ser tocadas fisicamente. (U2P28)",
+      "options": null,
+      "answer": "Falso4",
+      "type": "true_false"
+    },
+    {
+      "question": "141. (Múltipla escolha, U2P29) Em relação ao tamanho do território, o Brasil ocupa qual posição entre os maiores países do mundo?",
+      "options": [
+        "a) 2º lugar",
+        "b) 3º lugar",
+        "c) 4º lugar",
+        "d) 5º lugar"
+      ],
+      "answer": "d) 5º lugar (U2P29)4",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "142. (Falso/Verdadeiro, U2P29) A maior parte do território brasileiro está localizada no Hemisfério Sul. (U2P29)",
+      "options": null,
+      "answer": "Verdadeiro4",
+      "type": "true_false"
+    },
+    {
+      "question": "143. (Múltipla escolha, U2P29) Em qual continente está localizado o Brasil?",
+      "options": [
+        "a) África",
+        "b) América",
+        "c) Europa",
+        "d) Ásia"
+      ],
+      "answer": "b) América (U2P29)4",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "144. (Múltipla assertiva, U2P30) Sobre a localização e as fronteiras do Brasil, marque V para verdadeiro e F para falso:",
+      "options": [
+        "a) (V) O Brasil faz fronteira com quase todos os países da América do Sul, exceto Equador e Chile.",
+        "b) (F) O Brasil só faz fronteira com Argentina e Uruguai.",
+        "c) (V) O Brasil possui fronteira marítima banhada pelo Oceano Atlântico.",
+        "d) (V) O Brasil possui arquipélagos como Fernando de Noronha, Abrolhos e Trindade."
+      ],
+      "answer": "a) V, b) F, c) V, d) V (U2P30)4",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "145. (Múltipla escolha, U2P30) Quantos países compõem a América do Sul, incluindo o Brasil?",
+      "options": [
+        "a) 5",
+        "b) 13",
+        "c) 20",
+        "d) 50"
+      ],
+      "answer": "b) 13 (U2P30)4",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "146. (Falso/Verdadeiro, U2P30) O Brasil possui fronteiras terrestres e marítimas. (U2P30)",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "147. (Múltipla escolha, U2P31) Qual tratado dividiu inicialmente as terras do continente americano entre Portugal e Espanha durante o início da colonização?",
+      "options": [
+        "a) Tratado de Petrópolis",
+        "b) Tratado de Madri",
+        "c) Tratado de Tordesilhas",
+        "d) Tratado de Versalhes"
+      ],
+      "answer": "c) Tratado de Tordesilhas",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "148. (Falso/Verdadeiro, U2P31) A divisão do território brasileiro em capitanias hereditárias foi feita para facilitar a administração de um território muito extenso.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "150. (Múltipla escolha, U2P32) No início do século XVII, o território brasileiro foi dividido em duas grandes partes. Quais eram elas?",
+      "options": [
+        "a) Estado do Grão-Pará e Estado do Brasil",
+        "b) Capitania de São Vicente e Capitania de Pernambuco",
+        "c) Estado do Amazonas e Estado do Rio de Janeiro",
+        "d) Capitania do Maranhão e Capitania da Bahia"
+      ],
+      "answer": "a) Estado do Grão-Pará e Estado do Brasil",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "151. (Falso/Verdadeiro, U2P33) As fronteiras e territórios do Brasil sempre foram fixos e nunca sofreram alterações ao longo da história.",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "152. (Múltipla escolha, U2P33) Durante o Império, como o território brasileiro era organizado?",
+      "options": [
+        "a) Em estados",
+        "b) Em províncias",
+        "c) Em municípios",
+        "d) Em capitanias hereditárias"
+      ],
+      "answer": "b) Em províncias",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "154. (Falso/Verdadeiro, U2P34) O Brasil possui grande extensão territorial tanto no sentido norte-sul quanto leste-oeste.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "155. (Múltipla escolha, U2P34) Qual é o ponto mais ao norte do Brasil?",
+      "options": [
+        "a) Ponta do Seixas",
+        "b) Arroio Chuí",
+        "c) Nascente do Rio Moa",
+        "d) Nascente do Rio Ailã"
+      ],
+      "answer": "d) Nascente do Rio Ailã",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "157. (Falso/Verdadeiro, U2P35) O Brasil está dividido oficialmente em 26 estados e 1 Distrito Federal.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "158. (Múltipla escolha, U2P35) Segundo a divisão proposta por Milton Santos, qual das opções corresponde corretamente a uma das quatro regiões identificadas no mapa dos \"4 Brasis\"?",
+      "options": [
+        "a) Amazônia",
+        "b) Sudeste",
+        "c) Leste",
+        "d) Pampas"
+      ],
+      "answer": "a) Amazônia",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "160. (Falso/Verdadeiro, U2P36) As siglas dos estados brasileiros devem ser sempre escritas com letras maiúsculas.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "161. (Múltipla escolha, U2P36) Qual é a capital do estado de Pernambuco?",
+      "options": [
+        "a) João Pessoa",
+        "b) Recife",
+        "c) Salvador",
+        "d) Natal"
+      ],
+      "answer": "b) Recife",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "163. (Falso/Verdadeiro, U2P37) O território brasileiro é dividido em União, Estados, Distrito Federal e Municípios.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "164. (Múltipla escolha, U2P37) Quem é o representante da União no Brasil?",
+      "options": [
+        "a) Governador",
+        "b) Prefeito",
+        "c) Presidente",
+        "d) Vereador"
+      ],
+      "answer": "c) Presidente",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "166. (Falso/Verdadeiro, U2P37) As fronteiras do território brasileiro nunca mudaram desde o descobrimento.",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "167. (Múltipla escolha, U2P38) O que significa regionalizar o território?",
+      "options": [
+        "a) Dividir o espaço apenas por critérios políticos",
+        "b) Dividir uma área em regiões com características semelhantes",
+        "c) Dividir apenas por critérios econômicos",
+        "d) Dividir o espaço apenas por tamanho"
+      ],
+      "answer": "b) Dividir uma área em regiões com características semelhantes",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "169. (Múltipla escolha, U2P39) Qual é o principal critério utilizado na proposta de regionalização dos \"Quatro Brasis\", criada por Milton Santos e Maria Laura Silveira?",
+      "options": [
+        "a) Divisão por biomas",
+        "b) Concentração de tecnologias e atividades",
+        "c) Limites naturais dos estados",
+        "d) Apenas critérios históricos"
+      ],
+      "answer": "b) Concentração de tecnologias e atividades",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "170. (Falso/Verdadeiro, U2P39) Na proposta dos \"Quatro Brasis\", as regiões Sudeste e Sul formam uma única região chamada Região Concentrada.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "172. (Múltipla escolha, U2P40) Na proposta de regionalização geoeconômica de Pedro Pinchas Geiger, quantos complexos regionais existem?",
+      "options": [
+        "a) Dois",
+        "b) Três",
+        "c) Quatro",
+        "d) Cinco"
+      ],
+      "answer": "b) Três",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "173. (Falso/Verdadeiro, U2P40) Na regionalização geoeconômica, um mesmo estado pode pertencer a mais de um complexo regional.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "175. (Falso/Verdadeiro, U2P40) As fronteiras e territórios do Brasil nunca mudaram desde o período colonial.",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "176. (Múltipla escolha, U2P41) O que deve ser feito para completar corretamente um mapa político do Brasil, conforme a atividade da página?",
+      "options": [
+        "a) Escrever apenas o nome do país",
+        "b) Pintar todas as regiões de uma única cor",
+        "c) Escrever as siglas dos estados, colorir cada região de uma cor diferente e criar uma legenda",
+        "d) Desenhar apenas as capitais"
+      ],
+      "answer": "c) Escrever as siglas dos estados, colorir cada região de uma cor diferente e criar uma legenda",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "177. (Falso/Verdadeiro, U2P41) Na atividade de mapa, cada região do Brasil deve ser representada por uma cor diferente e identificada na legenda.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "179. (Múltipla escolha, U2P42) Ao preencher uma tabela com estados, siglas e capitais do Brasil, qual informação NÃO deve ser registrada?",
+      "options": [
+        "a) Nome do estado",
+        "b) Sigla do estado",
+        "c) Nome da capital",
+        "d) Nome do presidente"
+      ],
+      "answer": "d) Nome do presidente",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "180. (Falso/Verdadeiro, U2P42) O Distrito Federal é considerado uma unidade federativa, assim como os estados.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "182. (Falso/Verdadeiro, U2P43) Todo território é delimitado e pode ser dividido em regiões.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "183. (Múltipla escolha, U2P43) O que são fronteiras?",
+      "options": [
+        "a) Divisões apenas políticas entre países",
+        "b) Bordas que dividem áreas ou territórios",
+        "c) Limites naturais como rios e montanhas",
+        "d) Apenas linhas desenhadas em mapas"
+      ],
+      "answer": "b) Bordas que dividem áreas ou territórios",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "185. (Falso/Verdadeiro, U2P44) O território brasileiro sempre teve as mesmas fronteiras desde o início da colonização.",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "186. (Múltipla escolha, U2P44) Quantas partes compõem a divisão oficial do território brasileiro atualmente?",
+      "options": [
+        "a) 4 partes",
+        "b) 5 partes",
+        "c) 6 partes",
+        "d) 7 partes"
+      ],
+      "answer": "b) 5 partes",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "187. (Falso/Verdadeiro, U2P44) O Brasil faz fronteira com todos os países da América do Sul.",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "188. (Múltipla escolha, U2P44) Quais são os dois países sul-americanos que não fazem fronteira com o Brasil?",
+      "options": [
+        "a) Peru e Equador",
+        "b) Suriname e Colômbia",
+        "c) Chile e Equador",
+        "d) Peru e Chile"
+      ],
+      "answer": "c) Chile e Equador",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "190. (Falso/Verdadeiro, U2P45) O Brasil pode ser considerado um país de dimensões continentais.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "191. (Múltipla escolha, U2P45) Por que o Brasil é considerado um país de dimensões continentais?",
+      "options": [
+        "a) Porque tem muitos rios",
+        "b) Porque possui uma área comparável à de alguns continentes",
+        "c) Porque tem muitos estados",
+        "d) Porque faz fronteira com o Oceano Atlântico"
+      ],
+      "answer": "b) Porque possui uma área comparável à de alguns continentes",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "193. (Falso/Verdadeiro, U3P46) O espaço geográfico é formado apenas por elementos naturais.",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "194. (Múltipla escolha, U3P46) O que são elementos culturais do espaço geográfico?",
+      "options": [
+        "a) Elementos que existem na natureza sem interferência humana",
+        "b) Elementos criados ou modificados pela ação humana",
+        "c) Apenas as plantas e os animais",
+        "d) Apenas o solo e a água"
+      ],
+      "answer": "b) Elementos criados ou modificados pela ação humana",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "196. (Falso/Verdadeiro, U2P43) O território é um espaço delimitado e organizado por uma sociedade ou civilização.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "197. (Múltipla escolha, U2P43) O que são fronteiras?",
+      "options": [
+        "a) Pontos turísticos de um país",
+        "b) Bordas que dividem áreas",
+        "c) Apenas rios e mares",
+        "d) Apenas linhas imaginárias"
+      ],
+      "answer": "b) Bordas que dividem áreas",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "199. (Falso/Verdadeiro, U2P44) O território brasileiro é dividido atualmente em cinco grandes regiões: Norte, Sul, Sudeste, Centro-Oeste e Nordeste.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "200. (Múltipla escolha, U2P44) Sobre a divisão política do Brasil, é correto afirmar que o país é formado por:",
+      "options": [
+        "a) 27 estados e o Distrito Federal",
+        "b) 26 estados e o Distrito Federal",
+        "c) 26 estados, 3 territórios e o Distrito Federal",
+        "d) 26 estados, 2 territórios e o Distrito Federal"
+      ],
+      "answer": "b) 26 estados e o Distrito Federal",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "202. (Falso/Verdadeiro, U2P45) O Brasil é considerado um país de dimensões continentais.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "203. (Múltipla escolha, U2P45) Qual das alternativas apresenta corretamente um critério para considerar o Brasil um país de dimensões continentais?",
+      "options": [
+        "a) Ter muitos rios",
+        "b) Ter área semelhante à de continentes",
+        "c) Ter apenas uma região",
+        "d) Ter poucas cidades grandes"
+      ],
+      "answer": "b) Ter área semelhante à de continentes",
+      "type": "multiple_choice"
+    }
+  ],
+  "unidade_3": [
+    {
+      "question": "205. (Falso/Verdadeiro, U3P46) Espaço geográfico é toda área onde existe interação entre elementos naturais e elementos humanos (culturais).",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "206. (Múltipla escolha, U3P46) Qual das alternativas apresenta um exemplo de elemento natural do espaço geográfico?",
+      "options": [
+        "a) Fábrica",
+        "b) Prédio",
+        "c) Rio",
+        "d) Estrada"
+      ],
+      "answer": "c) Rio",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "208. (Falso/Verdadeiro, U3P47) Todo trabalho é necessariamente um emprego remunerado.",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "209. (Múltipla escolha, U3P47) Quando uma pessoa trabalha apenas para garantir sua própria sobrevivência e de sua família, sem vender sua força de trabalho para outra pessoa, dizemos que ela realiza:",
+      "options": [
+        "a) Trabalho assalariado",
+        "b) Trabalho informal",
+        "c) Trabalho de subsistência",
+        "d) Trabalho voluntário"
+      ],
+      "answer": "c) Trabalho de subsistência",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "211. (Falso/Verdadeiro, U3P48) O espaço natural é aquele em que o ser humano quase não altera a natureza, submetendo-se aos fenômenos naturais.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "212. (Múltipla escolha, U3P48) O que significa dizer que os primeiros seres humanos eram nômades?",
+      "options": [
+        "a) Eles viviam sempre no mesmo lugar",
+        "b) Eles migravam com frequência em busca de alimentos e abrigo",
+        "c) Eles já praticavam agricultura",
+        "d) Eles tinham casas fixas"
+      ],
+      "answer": "b) Eles migravam com frequência em busca de alimentos e abrigo",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "214. (Falso/Verdadeiro, U3P49) O meio técnico-científico-informacional é caracterizado pelo uso de tecnologias de comunicação, como computadores e celulares.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "215. (Múltipla escolha, U3P49) O que caracteriza o setor primário da economia?",
+      "options": [
+        "a) Produção de serviços",
+        "b) Transformação de matérias-primas em produtos industrializados",
+        "c) Extração de matérias-primas da natureza",
+        "d) Comércio de produtos prontos"
+      ],
+      "answer": "c) Extração de matérias-primas da natureza",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "217. (Falso/Verdadeiro, U3P50) Pecuária é apenas a criação de bois e vacas.",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "218. (Múltipla escolha, U3P50) Qual das alternativas apresenta um exemplo de extrativismo animal?",
+      "options": [
+        "a) Mineração",
+        "b) Pesca",
+        "c) Agricultura",
+        "d) Avicultura"
+      ],
+      "answer": "b) Pesca",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "220. (Falso/Verdadeiro, U3P51) O setor secundário é aquele responsável pela transformação de matérias-primas em produtos manufaturados.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "221. (Múltipla escolha, U3P51) Qual das alternativas corresponde a um exemplo de indústria de bens de consumo não duráveis?",
+      "options": [
+        "a) Fábrica de automóveis",
+        "b) Fábrica de roupas",
+        "c) Siderúrgica",
+        "d) Hidrelétrica"
+      ],
+      "answer": "b) Fábrica de roupas",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "223. (Falso/Verdadeiro, U3P51) O setor terciário é responsável pelas atividades de comércio e prestação de serviços.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "224. (Múltipla escolha, U3P52) O comércio é caracterizado por:",
+      "options": [
+        "a) Produção de matérias-primas",
+        "b) Venda de mercadorias para consumidores",
+        "c) Extração de recursos naturais",
+        "d) Transformação de produtos em fábricas"
+      ],
+      "answer": "b) Venda de mercadorias para consumidores",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "226. (Falso/Verdadeiro, U3P53) A distribuição das atividades econômicas pelo território brasileiro depende de fatores locacionais como clima, água, energia e mão de obra.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "227. (Múltipla escolha, U3P53) O que são fatores locacionais?",
+      "options": [
+        "a) Apenas a localização das cidades",
+        "b) Características que atraem atividades econômicas, como clima e disponibilidade de recursos",
+        "c) O nome das regiões do Brasil",
+        "d) Apenas a presença de indústrias"
+      ],
+      "answer": "b) Características que atraem atividades econômicas, como clima e disponibilidade de recursos",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "229. (Falso/Verdadeiro, U3P54) A distribuição das atividades econômicas no Brasil ocorre ao acaso, sem influência de fatores naturais ou humanos.",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "230. (Múltipla escolha, U3P54) Qual dos fatores abaixo pode ser considerado determinante para a localização de uma indústria?",
+      "options": [
+        "a) Proximidade de praias",
+        "b) Disponibilidade de matéria-prima",
+        "c) Quantidade de turistas",
+        "d) Altitude do local"
+      ],
+      "answer": "b) Disponibilidade de matéria-prima",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "232. (Falso/Verdadeiro, U3P55) O trabalho formal é aquele em que o trabalhador possui carteira assinada ou é autônomo regularizado, com proteção da lei.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "233. (Múltipla escolha, U3P55) Qual das opções abaixo é um exemplo de trabalho informal?",
+      "options": [
+        "a) Professor concursado",
+        "b) Vendedor ambulante",
+        "c) Médico de hospital público",
+        "d) Funcionário de banco"
+      ],
+      "answer": "b) Vendedor ambulante",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "235. (Falso/Verdadeiro, U3P55) As atividades econômicas são as principais responsáveis pelas mudanças no espaço geográfico brasileiro.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "236. (Múltipla escolha, U3P55) O que eram os ciclos econômicos no Brasil?",
+      "options": [
+        "a) Períodos em que o país não tinha nenhuma atividade econômica",
+        "b) Períodos marcados por uma atividade econômica predominante",
+        "c) Períodos de crise econômica mundial",
+        "d) Períodos de guerras no Brasil"
+      ],
+      "answer": "b) Períodos marcados por uma atividade econômica predominante",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "238. (Falso/Verdadeiro, U3P56) O pau-brasil era uma planta muito valorizada porque sua madeira servia para tingir tecidos.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "239. (Múltipla escolha, U3P56) Qual foi a principal atividade agrícola desenvolvida no Brasil colonial após o ciclo do pau-brasil?",
+      "options": [
+        "a) Mineração",
+        "b) Cana-de-açúcar",
+        "c) Café",
+        "d) Pecuária"
+      ],
+      "answer": "b) Cana-de-açúcar",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "241. (Falso/Verdadeiro, U3P57) A atividade mineradora foi importante para o povoamento das regiões de Minas Gerais e Goiás.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "242. (Múltipla escolha, U3P57) Qual atividade econômica marcou o século XIX no Brasil?",
+      "options": [
+        "a) Cana-de-açúcar",
+        "b) Mineração",
+        "c) Café",
+        "d) Pau-brasil"
+      ],
+      "answer": "c) Café",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "244. (Falso/Verdadeiro, U3P58) O processo de industrialização no Brasil começou por volta de 1930.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "245. (Múltipla escolha, U3P58) Após a crise do café, qual setor econômico ganhou destaque no Brasil?",
+      "options": [
+        "a) Setor primário",
+        "b) Setor secundário (industrial)",
+        "c) Setor agrícola",
+        "d) Setor extrativista"
+      ],
+      "answer": "b) Setor secundário (industrial)",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "247. (Falso/Verdadeiro, U3P59) O trabalho é uma atividade realizada pelo ser humano para satisfazer suas necessidades, mas nem todo trabalho é um emprego remunerado.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "248. (Múltipla escolha, U3P59) Qual das alternativas apresenta corretamente o que acontece quando o ser humano desenvolve novas técnicas e ferramentas?",
+      "options": [
+        "a) O espaço natural permanece inalterado",
+        "b) O espaço natural se transforma em espaço geográfico",
+        "c) O trabalho deixa de existir",
+        "d) O ser humano volta a ser nômade"
+      ],
+      "answer": "b) O espaço natural se transforma em espaço geográfico",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "250. (Falso/Verdadeiro, U3P60) O espaço geográfico pode ser transformado pelas atividades humanas ao longo do tempo.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "251. (Múltipla escolha, U3P60) O que representa o processo mostrado na sequência de imagens da página?",
+      "options": [
+        "a) A transformação de uma área natural em um espaço urbano",
+        "b) O aumento da vegetação natural",
+        "c) A volta da população à vida nômade",
+        "d) A diminuição da atividade econômica"
+      ],
+      "answer": "a) A transformação de uma área natural em um espaço urbano",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "254. (Falso/Verdadeiro, U3P61) A sedentarização dos seres humanos está relacionada ao desenvolvimento da agricultura e à fixação em um lugar.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "256. (Múltipla escolha, U3P62) Marque a alternativa que apresenta apenas atividades do setor primário:",
+      "options": [
+        "a) Comércio, transporte, agricultura e pecuária",
+        "b) Indústria, extrativismo vegetal, pecuária e transporte",
+        "c) Extrativismo, agricultura e pecuária",
+        "d) Geração de energia, extração de matéria-prima e mineração"
+      ],
+      "answer": "c) Extrativismo, agricultura e pecuária",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "257. (Múltipla escolha, U3P62) Marque a alternativa que apresenta apenas atividades do setor secundário:",
+      "options": [
+        "a) Geração de energia, construção de automóveis e suco de laranja processado",
+        "b) Agricultura, pecuária e mineração",
+        "c) Hospitais, farmácias e pet shops",
+        "d) Construção de rodovias, obtenção de minério e transporte aéreo"
+      ],
+      "answer": "a) Geração de energia, construção de automóveis e suco de laranja processado",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "258. (Múltipla escolha, U3P62) Circule a alternativa que apresenta apenas atividades do setor terciário:",
+      "options": [
+        "a) Produção de motos, transporte marítimo e comércio de legumes",
+        "b) Extrativismo mineral, extrativismo vegetal e extrativismo mineral",
+        "c) Fábrica de motores, metalúrgicas e usinas hidrelétricas",
+        "d) Escolas, hospitais e supermercados"
+      ],
+      "answer": "d) Escolas, hospitais e supermercados",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "260. (Múltipla escolha, U3P63) Ao longo da história da economia do Brasil, nós passamos por diversos ciclos econômicos, cada um com sua respectiva atividade principal. Iniciamos com o pau-brasil, passamos pela cana-de-açúcar, pecuária, mineração, café e industrialização. Indique com um (X) a alternativa que apresenta, respectivamente, os setores de cada uma dessas atividades.",
+      "options": [
+        "a) ( ) Primário, Secundário, Terciário, Primário, Secundário e Terciário.",
+        "b) ( ) Terciário, Secundário, Primário, Terciário, Secundário e Primário.",
+        "c) (X) Primário, Primário, Secundário, Secundário, Terciário e Terciário.",
+        "d) ( ) Primário, Primário, Primário, Primário, Primário e Secundário."
+      ],
+      "answer": "c) Primário, Primário, Secundário, Secundário, Terciário e Terciário.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "262. (Falso/Verdadeiro, U3P64) O setor terciário é o setor que emprega a maior quantidade de pessoas no Brasil atualmente.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "264. (Múltipla escolha, U3P64) Ao longo do tempo o Espaço Natural vem se transformando, dando origem ao chamado Espaço Geográfico, que é o espaço onde ocorrem as relações entre seres humanos e natureza. Marque com um (X) a alternativa que explica CORRETAMENTE essas relações.",
+      "options": [
+        "a) ( ) As transformações acontecem com o objetivo de preservar as paisagens naturais.",
+        "b) ( ) A razão pela qual o ser humano transforma a natureza é porque ele é instintivo, não racional, por isso altera as paisagens.",
+        "c) ( ) Os seres humanos transformam o Espaço Natural para obter conhecimento.",
+        "d) (X) Os humanos transformam o espaço para suprir necessidades como moradia e alimentação, além de promover mais conforto e segurança."
+      ],
+      "answer": "d) Os humanos transformam o espaço para suprir necessidades como moradia e alimentação, além de promover mais conforto e segurança.",
+      "type": "multiple_choice"
+    }
+  ],
+  "unidade_4": [
+    {
+      "question": "265. (Falso/Verdadeiro, U4P41) O espaço urbano é caracterizado pela presença de grandes prédios, trânsito intenso, comércio variado e atividades diversificadas.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "266. (Múltipla escolha, U4P41) Na Pré-História, o ser humano era considerado nômade porque:",
+      "options": [
+        "a) Vivia em cidades",
+        "b) Mudava de lugar em busca de alimento e abrigo",
+        "c) Sabia cultivar alimentos",
+        "d) Morava sempre no mesmo local"
+      ],
+      "answer": "b) Mudava de lugar em busca de alimento e abrigo",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "268. (Falso/Verdadeiro, U4P42) As primeiras sociedades humanas se formaram próximas a fontes de água, como rios.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "269. (Múltipla escolha, U4P42) O êxodo rural é o movimento de:",
+      "options": [
+        "a) Pessoas que mudam da cidade para o campo",
+        "b) Pessoas que mudam do campo para a cidade",
+        "c) Pessoas que mudam de um país para outro",
+        "d) Pessoas que mudam de bairro dentro da cidade"
+      ],
+      "answer": "b) Pessoas que mudam do campo para a cidade",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "271. (Falso/Verdadeiro, U4P43) A urbanização ocorre quando a população das cidades cresce mais rapidamente do que a do campo.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "272. (Múltipla escolha, U4P43) O que diferencia urbanização de crescimento urbano?",
+      "options": [
+        "a) Urbanização está ligada à extensão territorial e crescimento urbano à população",
+        "b) Urbanização está ligada à população e crescimento urbano à extensão territorial",
+        "c) Os dois termos significam exatamente a mesma coisa",
+        "d) Urbanização é um fenômeno apenas do campo"
+      ],
+      "answer": "b) Urbanização está ligada à população e crescimento urbano à extensão territorial",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "274. (Falso/Verdadeiro, U4P44) O número de cidades brasileiras com mais de 100 mil habitantes aumentou ao longo do tempo.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "275. (Múltipla escolha, U4P44) O espaço urbano é caracterizado principalmente por atividades dos setores:",
+      "options": [
+        "a) Primário e secundário",
+        "b) Secundário e terciário",
+        "c) Primário e terciário",
+        "d) Apenas terciário"
+      ],
+      "answer": "b) Secundário e terciário",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "277. (Falso/Verdadeiro, U4P45) O processo de urbanização no Brasil foi intensificado a partir da industrialização e do êxodo rural, principalmente na segunda metade do século XX.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "278. (Múltipla escolha, U4P45) O que caracteriza o fenômeno chamado êxodo rural?",
+      "options": [
+        "a) Migração de pessoas da cidade para o campo",
+        "b) Migração de pessoas do campo para a cidade em busca de melhores condições de vida e trabalho",
+        "c) Crescimento das áreas agrícolas",
+        "d) Aumento da produção de alimentos no campo"
+      ],
+      "answer": "b) Migração de pessoas do campo para a cidade em busca de melhores condições de vida e trabalho.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "280. (Falso/Verdadeiro, U4P46) A urbanização é caracterizada apenas pelo aumento da população das cidades, sem mudanças na extensão territorial urbana.",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "281. (Múltipla escolha, U4P46) Qual alternativa apresenta corretamente uma diferença entre urbanização e crescimento urbano?",
+      "options": [
+        "a) Urbanização refere-se ao aumento da população urbana; crescimento urbano refere-se ao aumento da área ocupada pela cidade",
+        "b) Ambos os termos significam exatamente a mesma coisa",
+        "c) Urbanização é um fenômeno apenas do campo",
+        "d) Crescimento urbano é o aumento da população rural"
+      ],
+      "answer": "a) Urbanização refere-se ao aumento da população urbana; crescimento urbano refere-se ao aumento da área ocupada pela cidade.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "283. (Falso/Verdadeiro, U4P47) O espaço urbano concentra principalmente atividades dos setores secundário e terciário, enquanto o espaço rural é associado ao setor primário.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "284. (Múltipla escolha, U4P47) Qual das alternativas apresenta corretamente uma relação entre espaço urbano e espaço rural no Brasil atual?",
+      "options": [
+        "a) O espaço rural abastece as cidades com produtos agrícolas e pecuários, enquanto o espaço urbano oferece serviços e indústrias",
+        "b) O espaço urbano depende do campo apenas para lazer",
+        "c) O espaço rural é responsável pelo setor terciário",
+        "d) O espaço urbano não depende do espaço rural"
+      ],
+      "answer": "a) O espaço rural abastece as cidades com produtos agrícolas e pecuários, enquanto o espaço urbano oferece serviços e indústrias.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "286. (Múltipla escolha, U4P45) O que mudou nas atividades humanas ao comparar a vida nas cavernas com a vida nas primeiras aldeias?",
+      "options": [
+        "a) As pessoas continuaram caçando e coletando, mas passaram a morar em casas de pedra.",
+        "b) O ser humano deixou de ser nômade, passou a praticar agricultura e a viver em grupos fixos.",
+        "c) Não houve mudanças significativas, apenas o local de moradia.",
+        "d) As pessoas passaram a viver isoladas, sem contato com outros grupos."
+      ],
+      "answer": "b) O ser humano deixou de ser nômade, passou a praticar agricultura e a viver em grupos fixos.1",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "288. (Falso/Verdadeiro, U4P46) O surgimento do espaço urbano está ligado ao desenvolvimento de atividades econômicas como comércio e indústria.",
+      "options": null,
+      "answer": "Verdadeiro2",
+      "type": "true_false"
+    },
+    {
+      "question": "289. (Múltipla escolha, U4P46) Que evento marca o surgimento do espaço urbano?",
+      "options": [
+        "a) O desenvolvimento da agricultura",
+        "b) O início da coleta de frutos",
+        "c) O surgimento do comércio e da indústria",
+        "d) A construção das primeiras cavernas"
+      ],
+      "answer": "c) O surgimento do comércio e da indústria2",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "291. (Falso/Verdadeiro, U4P47) O fenômeno de migração do campo para a cidade é chamado de êxodo rural.",
+      "options": null,
+      "answer": "Verdadeiro2",
+      "type": "true_false"
+    },
+    {
+      "question": "292. (Múltipla escolha, U4P47) O que representa a relação entre campo e cidade mostrada na imagem?",
+      "options": [
+        "a) Isolamento total entre campo e cidade",
+        "b) O campo abastece a cidade com alimentos e matérias-primas, enquanto a cidade oferece produtos industrializados e serviços",
+        "c) O campo depende apenas da tecnologia da cidade",
+        "d) A cidade produz tudo o que consome"
+      ],
+      "answer": "b) O campo abastece a cidade com alimentos e matérias-primas, enquanto a cidade oferece produtos industrializados e serviços2",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "294. (Múltipla escolha, U4P48) Sobre a urbanização brasileira entre 1950 e 2000, marque a alternativa INCORRETA:",
+      "options": [
+        "a) O maior equilíbrio entre população rural e urbana verificou-se no final dos anos 60.",
+        "b) O declínio da população rural acentuou-se significativamente a partir de meados dos anos 70.",
+        "c) O ritmo de crescimento da população urbana promoveu um desequilíbrio cada vez mais acentuado entre elas a partir da década de 70.",
+        "d) O crescimento da população total tornou-se superior ao da população urbana a partir de meados da década de 90."
+      ],
+      "answer": "d) O crescimento da população total tornou-se superior ao da população urbana a partir de meados da década de 90.3",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "295. (Falso/Verdadeiro, U4P48) Urbanização e crescimento urbano são fenômenos diferentes, embora relacionados.",
+      "options": null,
+      "answer": "Verdadeiro3",
+      "type": "true_false"
+    },
+    {
+      "question": "297. (Múltipla escolha, U4P48) Qual alternativa apresenta corretamente a relação entre urbanização e crescimento urbano?",
+      "options": [
+        "a) Não existe relação entre eles",
+        "b) O crescimento urbano pode ocorrer sem aumento da população urbana",
+        "c) A urbanização pode ocorrer sem expansão física da cidade",
+        "d) Ambos sempre acontecem juntos e no mesmo ritmo"
+      ],
+      "answer": "c) A urbanização pode ocorrer sem expansão física da cidade3",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "298. (Múltipla escolha, U4P49) Assinale a alternativa que apresenta corretamente a sequência dos setores econômicos predominantes no campo e na cidade, respectivamente:",
+      "options": [
+        "a) Primário e terciário",
+        "b) Secundário e primário",
+        "c) Terciário e secundário",
+        "d) Primário e secundário"
+      ],
+      "answer": "a) Primário e terciário",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "299. (Falso/Verdadeiro, U4P49) O desmatamento não é mais tão frequente nos grandes centros urbanos porque já restam poucas áreas verdes nativas nessas regiões.",
+      "options": null,
+      "answer": "Verdadeiro1.",
+      "type": "true_false"
+    },
+    {
+      "question": "300. (Múltipla escolha, U4P49) Qual das alternativas apresenta uma consequência direta do desmatamento nas áreas urbanas do litoral brasileiro?",
+      "options": [
+        "a) Aumento da cobertura da Mata Atlântica",
+        "b) Ampliação das áreas verdes nativas",
+        "c) Redução das extensões de Mata Atlântica",
+        "d) Crescimento das áreas agrícolas"
+      ],
+      "answer": "c) Redução das extensões de Mata Atlântica1.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "302. (Falso/Verdadeiro, U4P50) Problemas urbanos sociais estão ligados às desigualdades e dificuldades enfrentadas pela sociedade nas cidades, como falta de saneamento básico e congestionamentos.",
+      "options": null,
+      "answer": "Verdadeiro1.",
+      "type": "true_false"
+    },
+    {
+      "question": "303. (Múltipla escolha, U4P50) Qual das alternativas NÃO é um problema urbano social típico das grandes cidades brasileiras?",
+      "options": [
+        "a) Desigualdade social",
+        "b) Saneamento básico insuficiente",
+        "c) Congestionamentos",
+        "d) Aumento da cobertura vegetal"
+      ],
+      "answer": "d) Aumento da cobertura vegetal1.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "305. (Falso/Verdadeiro, U4P51) Problemas urbanos ambientais estão relacionados a prejuízos ao meio ambiente e à ocorrência de fenômenos naturais intensos nas cidades.",
+      "options": null,
+      "answer": "Verdadeiro2.",
+      "type": "true_false"
+    },
+    {
+      "question": "306. (Múltipla escolha, U4P51) Qual dos itens abaixo NÃO é considerado um problema urbano ambiental frequente nos grandes centros urbanos?",
+      "options": [
+        "a) Lixões",
+        "b) Enchentes",
+        "c) Alagamentos",
+        "d) Expansão de áreas verdes nativas"
+      ],
+      "answer": "d) Expansão de áreas verdes nativas2.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "308. (Falso/Verdadeiro, U4P52) Lixões são áreas de despejo de resíduos a céu aberto e sem preparo do solo, podendo contaminar o solo e a água.",
+      "options": null,
+      "answer": "Verdadeiro3.",
+      "type": "true_false"
+    },
+    {
+      "question": "309. (Múltipla escolha, U4P52) Qual é a principal diferença entre lixão e aterro sanitário?",
+      "options": [
+        "a) O lixão é sempre coberto com terra diariamente",
+        "b) O aterro sanitário possui isolamento impermeável e tratamento de resíduos, enquanto o lixão não",
+        "c) O lixão trata o chorume antes de liberar no solo",
+        "d) O aterro sanitário é mais poluente que o lixão"
+      ],
+      "answer": "b) O aterro sanitário possui isolamento impermeável e tratamento de resíduos, enquanto o lixão não3.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "311. (Falso/Verdadeiro, U4P53) Enchentes e alagamentos são problemas comuns em áreas urbanas, agravados pela impermeabilização do solo e falta de drenagem adequada.",
+      "options": null,
+      "answer": "Verdadeiro4.",
+      "type": "true_false"
+    },
+    {
+      "question": "312. (Múltipla escolha, U4P53) O que pode ser feito para evitar enchentes e alagamentos nas cidades?",
+      "options": [
+        "a) Construir mais lixões",
+        "b) Ampliar e limpar as galerias pluviais",
+        "c) Desmatar as áreas de encosta",
+        "d) Jogar lixo nas ruas"
+      ],
+      "answer": "b) Ampliar e limpar as galerias pluviais4.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "314. (Falso/Verdadeiro, U4P53) Deslizamentos de terra são fenômenos que podem ocorrer em áreas naturais e urbanas, sendo intensificados pela ocupação irregular e desmatamento de encostas.",
+      "options": null,
+      "answer": "Verdadeiro4.",
+      "type": "true_false"
+    },
+    {
+      "question": "315. (Múltipla escolha, U4P53) Qual é um dos principais fatores que contribuem para deslizamentos de terra em áreas urbanas?",
+      "options": [
+        "a) Preservação da vegetação",
+        "b) Ocupação de encostas e desmatamento",
+        "c) Construção de praças",
+        "d) Plantio de árvores nativas"
+      ],
+      "answer": "b) Ocupação de encostas e desmatamento4.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "317. (Falso/Verdadeiro, U4P51) A desigualdade social pode ser percebida no espaço urbano através da diferença entre áreas ricas e áreas pobres de uma cidade.1",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "318. (Múltipla escolha, U4P51) O que determina principalmente a divisão das pessoas em classes sociais na sociedade brasileira?",
+      "options": [
+        "a) A região onde moram",
+        "b) A renda das pessoas",
+        "c) O tipo de escola frequentada",
+        "d) A idade das pessoas"
+      ],
+      "answer": "b) A renda das pessoas",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "320. (Falso/Verdadeiro, U4P52) O saneamento básico é uma necessidade básica do ser humano e está relacionado ao abastecimento de água potável, esgotamento sanitário, limpeza urbana e drenagem de águas pluviais.2",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "321. (Múltipla escolha, U4P52) Qual das alternativas apresenta um problema causado pela falta de saneamento básico nas cidades?",
+      "options": [
+        "a) Aumento da oferta de empregos",
+        "b) Melhora na qualidade da água",
+        "c) Transmissão de doenças e contaminação do solo e da água",
+        "d) Crescimento de áreas verdes"
+      ],
+      "answer": "c) Transmissão de doenças e contaminação do solo e da água",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "323. (Falso/Verdadeiro, U4P53) Os congestionamentos nas cidades são causados principalmente pelo grande volume de automóveis e pela deficiência do transporte público.3",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "324. (Múltipla escolha, U4P53) Qual medida pode ajudar a minimizar os problemas de congestionamento nas cidades?",
+      "options": [
+        "a) Incentivar o uso do transporte público de qualidade e meios alternativos, como bicicletas",
+        "b) Construir mais avenidas para carros particulares",
+        "c) Reduzir o número de ônibus",
+        "d) Incentivar o uso exclusivo de carros particulares"
+      ],
+      "answer": "a) Incentivar o uso do transporte público de qualidade e meios alternativos, como bicicletas",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "326. (Falso/Verdadeiro, U4P54) O espaço urbano é resultado de transformações tecnológicas e sociais, que mudaram as formas de organização das cidades ao longo do tempo.4",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "327. (Múltipla escolha, U4P54) Por que o planejamento urbano é importante para as cidades brasileiras?",
+      "options": [
+        "a) Porque impede o crescimento das cidades",
+        "b) Porque garante que as cidades cresçam de forma organizada, com melhor qualidade de vida",
+        "c) Porque elimina a necessidade de políticas públicas",
+        "d) Porque reduz a oferta de empregos"
+      ],
+      "answer": "b) Porque garante que as cidades cresçam de forma organizada, com melhor qualidade de vida",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "329. (Múltipla escolha, U4P55) Qual dos meios de transporte urbanos abaixo é mais eficiente para reduzir o congestionamento nas grandes cidades?",
+      "options": [
+        "a) Carro particular",
+        "b) Bicicleta",
+        "c) Ônibus coletivo",
+        "d) Helicóptero particular"
+      ],
+      "answer": "c) Ônibus coletivo",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "331. (Falso/Verdadeiro, U4P56) A desigualdade social nas cidades pode ser percebida pela presença de pessoas em situação de rua e pela diferença entre áreas ricas e pobres.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "332. (Múltipla escolha, U4P56) Qual das alternativas representa um exemplo de desigualdade social no espaço urbano?",
+      "options": [
+        "a) Existência de bairros com infraestrutura completa e áreas sem saneamento básico",
+        "b) Presença de parques públicos em todos os bairros",
+        "c) Acesso igualitário à saúde e educação para todos",
+        "d) Oferta de transporte público eficiente em toda a cidade"
+      ],
+      "answer": "a) Existência de bairros com infraestrutura completa e áreas sem saneamento básico",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "334. (Falso/Verdadeiro, U4P56) O destino mais apropriado para o lixo urbano é o aterro sanitário, pois ele evita a contaminação do solo e da água.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "335. (Múltipla escolha, U4P56) Por que os lixões são inadequados para o descarte do lixo urbano?",
+      "options": [
+        "a) Porque ocupam pouco espaço",
+        "b) Porque causam poluição e riscos à saúde pública",
+        "c) Porque são mais modernos que os aterros sanitários",
+        "d) Porque são mais baratos para as prefeituras"
+      ],
+      "answer": "b) Porque causam poluição e riscos à saúde pública",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "337. (Falso/Verdadeiro, U4P56) Enchentes e alagamentos em cidades podem ser causados pelo acúmulo de lixo nas ruas e pela impermeabilização do solo.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "338. (Múltipla escolha, U4P56) Qual medida pode ajudar a diminuir os alagamentos nas cidades?",
+      "options": [
+        "a) Jogar lixo nas ruas",
+        "b) Construir mais lixões",
+        "c) Melhorar a drenagem urbana e evitar o descarte de lixo em vias públicas",
+        "d) Aumentar o número de carros particulares"
+      ],
+      "answer": "c) Melhorar a drenagem urbana e evitar o descarte de lixo em vias públicas",
+      "type": "multiple_choice"
+    }
+  ],
+  "unidade_5": [
+    {
+      "question": "340. (Falso/Verdadeiro, U5P87) A mobilidade urbana é o deslocamento de pessoas e mercadorias em centros urbanos.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "341. (Múltipla escolha, U5P87) Qual dos seguintes é um meio de transporte coletivo que ajuda a reduzir o congestionamento nas cidades?",
+      "options": [
+        "a) Carro particular",
+        "b) Ônibus",
+        "c) Bicicleta",
+        "d) Avião"
+      ],
+      "answer": "b) Ônibus",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "343. (Falso/Verdadeiro, U5P88) A intermodalidade é a capacidade dos modais de transporte se integrarem para facilitar o deslocamento.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "344. (Múltipla escolha, U5P88) Qual modal de transporte é o mais utilizado no Brasil, segundo a matriz de transporte de 2014?",
+      "options": [
+        "a) Rodoviário",
+        "b) Ferroviário",
+        "c) Hidroviário",
+        "d) Aéreo"
+      ],
+      "answer": "a) Rodoviário",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "345. (Falso/Verdadeiro, U5P89) O transporte ferroviário é indicado para longas distâncias e grandes quantidades de carga.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "346. (Múltipla escolha, U5P89) Qual é a principal desvantagem do transporte rodoviário no Brasil?",
+      "options": [
+        "a) Alto custo de manutenção",
+        "b) Baixa flexibilidade",
+        "c) Pouca capacidade de carga",
+        "d) Alta velocidade"
+      ],
+      "answer": "a) Alto custo de manutenção",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "348. (Falso/Verdadeiro, U5P90) No Brasil, a maior parte da malha ferroviária é destinada ao transporte de carga, com presença reduzida nas grandes cidades.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "349. (Múltipla escolha, U5P90) O que caracteriza o transporte metroviário nas cidades brasileiras?",
+      "options": [
+        "a) É feito por ônibus",
+        "b) É realizado sobre trilhos, geralmente subterrâneo, e serve como alternativa para grandes cidades",
+        "c) Utiliza apenas carros particulares",
+        "d) Só existe em cidades pequenas"
+      ],
+      "answer": "b) É realizado sobre trilhos, geralmente subterrâneo, e serve como alternativa para grandes cidades",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "351. (Falso/Verdadeiro, U5P91) O transporte aquaviário inclui meios que se deslocam pela água, como barcos e navios, podendo ser classificados em marítimo, lacustre e fluvial.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "352. (Múltipla escolha, U5P91) O que é cabotagem?",
+      "options": [
+        "a) Navegação de longo curso entre continentes",
+        "b) Transporte realizado de porto a porto ao longo do litoral do Brasil",
+        "c) Transporte de cargas por dutos",
+        "d) Transporte aéreo entre capitais"
+      ],
+      "answer": "b) Transporte realizado de porto a porto ao longo do litoral do Brasil",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "354. (Falso/Verdadeiro, U5P92) O transporte fluvial ocorre em rios e é muito importante na região Norte do Brasil, onde o Rio Amazonas é uma das principais hidrovias.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "355. (Múltipla escolha, U5P92) Qual é uma das principais vantagens do transporte aquaviário?",
+      "options": [
+        "a) Alta flexibilidade e velocidade",
+        "b) Baixa capacidade de carga",
+        "c) Bom custo-benefício para médias e longas distâncias",
+        "d) Pouca importância para o comércio internacional"
+      ],
+      "answer": "c) Bom custo-benefício para médias e longas distâncias",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "357. (Falso/Verdadeiro, U5P93) O transporte aéreo é considerado um dos mais seguros, apesar do senso comum de que voar pode ser perigoso.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "358. (Múltipla escolha, U5P93) Qual das alternativas apresenta uma desvantagem do transporte aéreo?",
+      "options": [
+        "a) Alta velocidade",
+        "b) Pequena capacidade de carga e altos custos de implementação",
+        "c) Integração dos territórios em nível mundial",
+        "d) Segurança elevada"
+      ],
+      "answer": "b) Pequena capacidade de carga e altos custos de implementação",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "360. (Falso/Verdadeiro, U5P94) O transporte dutoviário utiliza dutos subterrâneos para transportar minérios, gases, óleos e produtos químicos.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "361. (Múltipla escolha, U5P94) Qual é uma das principais vantagens do transporte dutoviário?",
+      "options": [
+        "a) Alto custo de manutenção",
+        "b) Alta capacidade de carga e funcionamento 24 horas por dia",
+        "c) Alta flexibilidade de produtos transportados",
+        "d) Baixa segurança no transporte"
+      ],
+      "answer": "b) Alta capacidade de carga e funcionamento 24 horas por dia",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "363. (Falso/Verdadeiro, U5P91) As redes de comunicação conectam meios de comunicação por fluxos de informações, permitindo que pessoas acessem notícias, façam pagamentos e se comuniquem em tempo real.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "364. (Múltipla escolha, U5P91) Qual das alternativas apresenta um exemplo de meio de comunicação multimidiático?",
+      "options": [
+        "a) Jornal impresso",
+        "b) Rádio",
+        "c) Smartphone",
+        "d) Telefone fixo"
+      ],
+      "answer": "c) Smartphone",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "366. (Falso/Verdadeiro, U5P92) A infraestrutura das redes de informação está igualmente distribuída por todo o território brasileiro.",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "367. (Múltipla escolha, U5P92) Por que muitas pessoas no Brasil ainda não têm acesso fácil à internet e à telefonia?",
+      "options": [
+        "a) Porque não gostam de tecnologia",
+        "b) Porque a infraestrutura e os custos não são acessíveis a todos",
+        "c) Porque preferem meios de comunicação antigos",
+        "d) Porque só vivem em áreas rurais"
+      ],
+      "answer": "b) Porque a infraestrutura e os custos não são acessíveis a todos",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "369. (Falso/Verdadeiro, U5P95) A baixa integração e a má qualidade do transporte público contribuem para o aumento do uso de veículos particulares nas grandes cidades brasileiras.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "370. (Múltipla escolha, U5P95) Qual dos fatores abaixo NÃO é um problema relacionado ao transporte público nas grandes cidades brasileiras?",
+      "options": [
+        "a) Baixa taxa de integração",
+        "b) Manutenção precária dos veículos",
+        "c) Alto preço das passagens",
+        "d) Redução dos congestionamentos"
+      ],
+      "answer": "d) Redução dos congestionamentos",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "372. (Falso/Verdadeiro, U5P96) A intermodalidade permite o deslocamento por diferentes meios de transporte integrados, facilitando a mobilidade urbana.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "373. (Múltipla escolha, U5P96) Qual é o modal de transporte mais utilizado no Brasil?",
+      "options": [
+        "a) Ferroviário",
+        "b) Rodoviário",
+        "c) Aquaviário",
+        "d) Aéreo"
+      ],
+      "answer": "b) Rodoviário",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "375. (Falso/Verdadeiro, U5P97) A matriz de transporte brasileira é considerada equilibrada, pois todos os modais têm participação semelhante.",
+      "options": null,
+      "answer": "Falso",
+      "type": "true_false"
+    },
+    {
+      "question": "376. (Múltipla escolha, U5P97) Qual ação pode contribuir para a melhoria da mobilidade urbana nas cidades?",
+      "options": [
+        "a) Incentivar o uso exclusivo de carros particulares",
+        "b) Investir em transporte público de qualidade e integração de modais",
+        "c) Reduzir o número de ônibus",
+        "d) Construir mais estacionamentos para carros"
+      ],
+      "answer": "b) Investir em transporte público de qualidade e integração de modais",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "378. (Falso/Verdadeiro, U5P99) Uma rede urbana é formada pelas cidades (nós) e pelas conexões entre elas, como transportes e comunicação (fios).",
+      "options": null,
+      "answer": "Verdadeiro1.",
+      "type": "true_false"
+    },
+    {
+      "question": "379. (Múltipla escolha, U5P99) O que são fluxos materiais em uma rede urbana?",
+      "options": [
+        "a) Movimentação de dinheiro e informações",
+        "b) Deslocamento de pessoas e produtos",
+        "c) Apenas transporte de mercadorias",
+        "d) Apenas comunicação digital"
+      ],
+      "answer": "b) Deslocamento de pessoas e produtos1.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "381. (Falso/Verdadeiro, U5P100) A intermodalidade é a integração entre diferentes meios de transporte para superar limitações e aproveitar os pontos fortes de cada modal.",
+      "options": null,
+      "answer": "Verdadeiro2.",
+      "type": "true_false"
+    },
+    {
+      "question": "382. (Múltipla escolha, U5P100) Por que a gestão eficiente dos recursos é importante nas grandes cidades?",
+      "options": [
+        "a) Porque reduz a população urbana",
+        "b) Porque resolve todos os problemas de transporte",
+        "c) Porque ajuda a enfrentar congestionamentos e poluição",
+        "d) Porque elimina a necessidade de transporte público"
+      ],
+      "answer": "c) Porque ajuda a enfrentar congestionamentos e poluição2.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "384. (Falso/Verdadeiro, U5P101) O acesso à internet e à telefonia móvel é maior nas áreas urbanas do Sudeste e Centro-Oeste do Brasil.",
+      "options": null,
+      "answer": "Verdadeiro3.",
+      "type": "true_false"
+    },
+    {
+      "question": "385. (Múltipla escolha, U5P101) Qual região brasileira apresenta o menor percentual de domicílios com acesso à internet?",
+      "options": [
+        "a) Sudeste",
+        "b) Sul",
+        "c) Norte",
+        "d) Centro-Oeste"
+      ],
+      "answer": "c) Norte3.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "387. (Múltipla escolha, U5P102) Qual dos modais de transporte apresenta maior flexibilidade de rotas e acessos?",
+      "options": [
+        "a) Ferroviário",
+        "b) Rodoviário",
+        "c) Marítimo",
+        "d) Dutoviário"
+      ],
+      "answer": "b) Rodoviário4.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "389. (Falso/Verdadeiro, U5P102) O modal marítimo é fundamental para o comércio internacional brasileiro.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "390. (Múltipla escolha, U5P103) Como se classificam os meios de comunicação?",
+      "options": [
+        "a) Apenas escritos e sonoros",
+        "b) Escritos, sonoros, audiovisuais e multimidiáticos",
+        "c) Apenas audiovisuais",
+        "d) Apenas multimidiáticos"
+      ],
+      "answer": "b) Escritos, sonoros, audiovisuais e multimidiáticos",
+      "type": "multiple_choice"
+    }
+  ],
+  "unidade_6": [
+    {
+      "question": "393. (Falso/Verdadeiro, U6P104) As fontes de energia podem ser classificadas em fontes renováveis e fontes não renováveis.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "394. (Múltipla escolha, U6P104) O que caracteriza uma fonte de energia renovável?",
+      "options": [
+        "a) É uma fonte que se esgota rapidamente e não pode ser reposta",
+        "b) É uma fonte que pode se renovar ou ser reposta em um tempo relativamente curto",
+        "c) É uma fonte que só existe em áreas urbanas",
+        "d) É uma fonte que depende exclusivamente de combustíveis fósseis"
+      ],
+      "answer": "b) É uma fonte que pode se renovar ou ser reposta em um tempo relativamente curto",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "396. (Falso/Verdadeiro, U6P105) As fontes de energia podem ser classificadas em fontes renováveis e fontes não renováveis.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "397. (Múltipla escolha, U6P105) O que caracteriza uma fonte de energia renovável?",
+      "options": [
+        "a) É uma fonte que se esgota rapidamente e não pode ser reposta",
+        "b) É uma fonte que pode se renovar ou ser reposta em um tempo relativamente curto",
+        "c) É uma fonte que depende exclusivamente de combustíveis fósseis",
+        "d) É uma fonte que só existe em áreas urbanas"
+      ],
+      "answer": "b) É uma fonte que pode se renovar ou ser reposta em um tempo relativamente curto",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "399. (Falso/Verdadeiro, U6P106) A energia hidrelétrica utiliza o movimento da água para gerar energia elétrica.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "400. (Múltipla escolha, U6P106) Qual é uma vantagem das usinas hidrelétricas?",
+      "options": [
+        "a) Baixo custo de implantação",
+        "b) Reduzida emissão de gases poluentes",
+        "c) Independência de condições naturais",
+        "d) Não afeta comunidades ribeirinhas"
+      ],
+      "answer": "b) Reduzida emissão de gases poluentes",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "402. (Falso/Verdadeiro, U6P107) A energia solar pode ser utilizada para aquecimento de água ou para geração de energia elétrica por meio de painéis solares.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "403. (Múltipla escolha, U6P107) Qual das alternativas é uma vantagem da energia solar?",
+      "options": [
+        "a) Alta emissão de poluentes",
+        "b) Baixa necessidade de manutenção",
+        "c) Fácil armazenamento da energia",
+        "d) Independência das condições naturais"
+      ],
+      "answer": "b) Baixa necessidade de manutenção",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "405. (Falso/Verdadeiro, U6P108) A energia eólica utiliza a força do vento para gerar energia elétrica, por meio de aerogeradores.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "406. (Múltipla escolha, U6P108) Qual das alternativas NÃO é uma desvantagem da energia eólica?",
+      "options": [
+        "a) Custo de implantação elevado",
+        "b) Emissão de gases poluentes",
+        "c) Dependência das condições naturais",
+        "d) Poluição visual e sonora"
+      ],
+      "answer": "b) Emissão de gases poluentes",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "408. (Falso/Verdadeiro, U6P109) A energia geotérmica aproveita o calor interno do planeta para gerar eletricidade, utilizando o vapor de água aquecido em reservatórios subterrâneos.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "409. (Múltipla escolha, U6P109) Qual das alternativas apresenta uma vantagem da energia geotérmica?",
+      "options": [
+        "a) Elevada emissão de CO₂",
+        "b) Independência de condições climáticas e baixa emissão de poluentes",
+        "c) Necessidade de grandes áreas agrícolas",
+        "d) Baixo custo de implantação"
+      ],
+      "answer": "b) Independência de condições climáticas e baixa emissão de poluentes",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "411. (Falso/Verdadeiro, U6P110) A energia maremotriz utiliza a energia mecânica das marés, correntes marítimas e ondas para gerar eletricidade.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "412. (Múltipla escolha, U6P110) Qual é uma vantagem da energia maremotriz?",
+      "options": [
+        "a) Alta emissão de resíduos poluentes",
+        "b) Diversidade de equipamentos e ausência de resíduos poluentes",
+        "c) Instalações pouco sensíveis a desastres naturais",
+        "d) Independência das condições do mar"
+      ],
+      "answer": "b) Diversidade de equipamentos e ausência de resíduos poluentes",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "414. (Falso/Verdadeiro, U6P111) Os biocombustíveis são fontes de energia renovável de origem natural ou biológica, como o biodiesel, biogás e etanol.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "415. (Múltipla escolha, U6P111) Qual é a principal matéria-prima utilizada na produção de biocombustíveis no Brasil?",
+      "options": [
+        "a) Soja",
+        "b) Cana-de-açúcar",
+        "c) Girassol",
+        "d) Milho"
+      ],
+      "answer": "b) Cana-de-açúcar",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "417. (Falso/Verdadeiro, U6P112) Fontes não renováveis de energia são aquelas que podem se esgotar e não se renovam em tempo útil na natureza.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "418. (Múltipla escolha, U6P112) Qual das alternativas apresenta apenas fontes não renováveis de energia?",
+      "options": [
+        "a) Energia solar, eólica e hidrelétrica",
+        "b) Carvão mineral, petróleo e gás natural",
+        "c) Biomassa, lenha e carvão vegetal",
+        "d) Energia geotérmica, solar e nuclear"
+      ],
+      "answer": "b) Carvão mineral, petróleo e gás natural",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "420. (Falso/Verdadeiro, U6P112) As usinas termelétricas utilizam fontes não renováveis e geram energia a partir da queima de combustíveis, como carvão, gás ou petróleo.",
+      "options": null,
+      "answer": "Verdadeiro",
+      "type": "true_false"
+    },
+    {
+      "question": "421. (Falso/Verdadeiro, U6P113) O carvão mineral é um recurso natural formado a partir da compactação e solidificação de restos vegetais soterrados, sendo muito utilizado para gerar energia térmica.",
+      "options": null,
+      "answer": "Verdadeiro1.",
+      "type": "true_false"
+    },
+    {
+      "question": "422. (Múltipla escolha, U6P113) Qual das alternativas apresenta uma vantagem do uso do carvão mineral como fonte de energia?",
+      "options": [
+        "a) Baixo grau de poluição",
+        "b) Facilidade na obtenção e rendimento energético satisfatório",
+        "c) Fonte renovável e limpa",
+        "d) Não apresenta riscos de acidentes"
+      ],
+      "answer": "b) Facilidade na obtenção e rendimento energético satisfatório1.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "423. (Múltipla assertiva, U6P113) Sobre o carvão mineral, marque V para verdadeiro e F para falso:",
+      "options": [
+        "a) (V) É uma fonte de energia finita.",
+        "b) (V) Sua queima pode gerar acidentes em usinas térmicas e minas de extração.",
+        "c) (F) Não apresenta nenhum impacto ambiental.",
+        "d) (V) Tem alto grau de poluição e dificuldade de transporte."
+      ],
+      "answer": "a) V, b) V, c) F, d) V1.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "424. (Falso/Verdadeiro, U6P114) O petróleo é um recurso mineral não renovável formado por reações químicas com sedimentos marinhos sob grande pressão, sendo chamado de “ouro negro”.",
+      "options": null,
+      "answer": "Verdadeiro2.",
+      "type": "true_false"
+    },
+    {
+      "question": "425. (Múltipla escolha, U6P114) Uma das principais vantagens do petróleo como fonte de energia é:",
+      "options": [
+        "a) Baixo potencial econômico",
+        "b) Elevado rendimento energético e facilidade de transporte",
+        "c) Baixa participação na matriz energética mundial",
+        "d) Não apresenta riscos ambientais"
+      ],
+      "answer": "b) Elevado rendimento energético e facilidade de transporte2.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "426. (Múltipla assertiva, U6P114) Sobre o petróleo, marque V para verdadeiro e F para falso:",
+      "options": [
+        "a) (V) Pode ser explorado em áreas continentais e oceânicas.",
+        "b) (V) Sua extração e refino têm custo elevado.",
+        "c) (F) É uma fonte de energia renovável.",
+        "d) (V) Apresenta elevado grau de degradação ambiental."
+      ],
+      "answer": "a) V, b) V, c) F, d) V2.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "427. (Falso/Verdadeiro, U6P115) O gás natural, geralmente encontrado junto ao petróleo, é formado pela decomposição de matéria orgânica fóssil em áreas profundas da crosta terrestre.",
+      "options": null,
+      "answer": "Verdadeiro3.",
+      "type": "true_false"
+    },
+    {
+      "question": "428. (Múltipla escolha, U6P115) Em relação ao gás natural, marque a alternativa correta:",
+      "options": [
+        "a) É sempre mais poluente que o petróleo",
+        "b) Possui custo menor e é menos nocivo ao meio ambiente que o petróleo",
+        "c) Não exige infraestrutura para transporte",
+        "d) Pode ser transportado facilmente por qualquer meio"
+      ],
+      "answer": "b) Possui custo menor e é menos nocivo ao meio ambiente que o petróleo3.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "429. (Múltipla assertiva, U6P115) Sobre o gás natural, marque V para verdadeiro e F para falso:",
+      "options": [
+        "a) (V) Exige uma malha dutoviária ou caminhões-tanque para transporte.",
+        "b) (V) É menos poluente que o petróleo.",
+        "c) (F) Não apresenta nenhum custo para obtenção e transporte.",
+        "d) (V) É formado em áreas profundas da crosta terrestre."
+      ],
+      "answer": "a) V, b) V, c) F, d) V3.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "430. (Falso/Verdadeiro, U6P116) A energia nuclear é gerada a partir do enriquecimento e da fissão nuclear, que libera grande quantidade de energia térmica para gerar eletricidade.",
+      "options": null,
+      "answer": "Verdadeiro4.",
+      "type": "true_false"
+    },
+    {
+      "question": "431. (Múltipla escolha, U6P116) Qual das alternativas apresenta uma vantagem da energia nuclear?",
+      "options": [
+        "a) Não há necessidade de urânio",
+        "b) Não emite poluentes atmosféricos durante a geração de energia",
+        "c) Baixo custo de implantação",
+        "d) Não há riscos de acidentes"
+      ],
+      "answer": "b) Não emite poluentes atmosféricos durante a geração de energia4.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "432. (Múltipla assertiva, U6P116) Sobre energia nuclear, marque V para verdadeiro e F para falso:",
+      "options": [
+        "a) (V) Possui alto rendimento energético.",
+        "b) (V) Apresenta dificuldade no descarte dos resíduos radioativos.",
+        "c) (F) Não apresenta nenhum risco de acidentes.",
+        "d) (V) O Brasil possui usinas nucleares em Angra dos Reis (RJ)."
+      ],
+      "answer": "a) V, b) V, c) F, d) V4.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "433. (Falso/Verdadeiro, U6P117) As fontes renováveis de energia dependem das condições naturais do território e só podem ser aproveitadas em situações específicas.",
+      "options": null,
+      "answer": "Verdadeiro1.",
+      "type": "true_false"
+    },
+    {
+      "question": "434. (Múltipla escolha, U6P118) O que é matriz energética?",
+      "options": [
+        "a) O conjunto de fontes de energia organizadas pelos seres humanos em um local",
+        "b) Apenas as fontes de energia renováveis de um país",
+        "c) Apenas os combustíveis fósseis utilizados no mundo",
+        "d) O total de energia consumida por uma cidade"
+      ],
+      "answer": "a) O conjunto de fontes de energia organizadas pelos seres humanos em um local2.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "436. (Falso/Verdadeiro, U6P119) Apesar de ter destaque em fontes renováveis, o Brasil ainda possui parte significativa de sua matriz energética composta por fontes não renováveis.",
+      "options": null,
+      "answer": "Verdadeiro3.",
+      "type": "true_false"
+    },
+    {
+      "question": "437. (Múltipla escolha, U6P119) Assinale a alternativa que apresenta apenas fontes de energia não renováveis:",
+      "options": [
+        "a) Biomassa, Petróleo e Urânio",
+        "b) Álcool, Gasolina e Biomassa",
+        "c) Carvão mineral, petróleo e gás natural",
+        "d) Elementos radioativos, álcool e gasolina"
+      ],
+      "answer": "c) Carvão mineral, petróleo e gás natural3.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "439. (Falso/Verdadeiro, U6P120) A principal diferença entre fontes de energia renováveis e não renováveis é que as renováveis podem ser repostas em um curto período, enquanto as não renováveis podem se esgotar.",
+      "options": null,
+      "answer": "Verdadeiro4.",
+      "type": "true_false"
+    },
+    {
+      "question": "440. (Múltipla escolha, U6P120) Das opções abaixo, qual apresenta apenas fontes de energia renováveis?",
+      "options": [
+        "a) Carvão mineral, gás natural e petróleo",
+        "b) Hidrelétrica, solar e biomassa",
+        "c) Petróleo, nuclear e gás natural",
+        "d) Carvão vegetal, lenha e petróleo"
+      ],
+      "answer": "b) Hidrelétrica, solar e biomassa4.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "433. (Falso/Verdadeiro, U6P117) As fontes renováveis de energia dependem das condições naturais do território e só podem ser aproveitadas em situações específicas.",
+      "options": null,
+      "answer": "Verdadeiro1.",
+      "type": "true_false"
+    },
+    {
+      "question": "434. (Múltipla escolha, U6P118) O que é matriz energética?",
+      "options": [
+        "a) O conjunto de fontes de energia organizadas pelos seres humanos em um local",
+        "b) Apenas as fontes de energia renováveis de um país",
+        "c) Apenas os combustíveis fósseis utilizados no mundo",
+        "d) O total de energia consumida por uma cidade"
+      ],
+      "answer": "a) O conjunto de fontes de energia organizadas pelos seres humanos em um local2.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "436. (Falso/Verdadeiro, U6P119) Apesar de ter destaque em fontes renováveis, o Brasil ainda possui parte significativa de sua matriz energética composta por fontes não renováveis.",
+      "options": null,
+      "answer": "Verdadeiro3.",
+      "type": "true_false"
+    },
+    {
+      "question": "437. (Múltipla escolha, U6P119) Assinale a alternativa que apresenta apenas fontes de energia não renováveis:",
+      "options": [
+        "a) Biomassa, Petróleo e Urânio",
+        "b) Álcool, Gasolina e Biomassa",
+        "c) Carvão mineral, petróleo e gás natural",
+        "d) Elementos radioativos, álcool e gasolina"
+      ],
+      "answer": "c) Carvão mineral, petróleo e gás natural3.",
+      "type": "multiple_choice"
+    },
+    {
+      "question": "439. (Falso/Verdadeiro, U6P120) A principal diferença entre fontes de energia renováveis e não renováveis é que as renováveis podem ser repostas em um curto período, enquanto as não renováveis podem se esgotar.",
+      "options": null,
+      "answer": "Verdadeiro4.",
+      "type": "true_false"
+    },
+    {
+      "question": "440. (Múltipla escolha, U6P120) Das opções abaixo, qual apresenta apenas fontes de energia renováveis?",
+      "options": [
+        "a) Carvão mineral, gás natural e petróleo",
+        "b) Hidrelétrica, solar e biomassa",
+        "c) Petróleo, nuclear e gás natural",
+        "d) Carvão vegetal, lenha e petróleo"
+      ],
+      "answer": "b) Hidrelétrica, solar e biomassa4.",
+      "type": "multiple_choice"
+    }
+  ]
+}
