@@ -1,0 +1,228 @@
+/* ===== ESTILOS PARA REVISÃO VISUAL COM CORES POR UNIDADE ===== */
+.visual-review-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.review-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.review-cards {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.visual-review-card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.visual-review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.concept-section {
+    color: white;
+    padding: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+.concept-section::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    transform: rotate(45deg);
+}
+
+.concept-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.concept-header h4 {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.9;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+
+.concept-icon {
+    font-size: 1.5rem;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+}
+
+.concept-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.concept-definition {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0;
+    opacity: 0.95;
+    position: relative;
+    z-index: 2;
+}
+
+.cotidiano-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    color: #2c3e50;
+    padding: 25px;
+    border-top: 3px solid rgba(0,0,0,0.1);
+}
+
+.cotidiano-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.cotidiano-header h4 {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+
+.cotidiano-icon {
+    font-size: 1.5rem;
+}
+
+.cotidiano-example {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0;
+    color: #495057;
+    font-style: italic;
+    background: rgba(255,255,255,0.7);
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #ffc107;
+}
+
+/* Animações */
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.visual-review-card {
+    animation: slideInUp 0.6s ease forwards;
+}
+
+.visual-review-card:nth-child(even) {
+    animation-delay: 0.1s;
+}
+
+.visual-review-card:nth-child(3n) {
+    animation-delay: 0.2s;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .review-cards {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .visual-review-card {
+        margin: 0 10px;
+    }
+    
+    .concept-section,
+    .cotidiano-section {
+        padding: 20px;
+    }
+    
+    .concept-title {
+        font-size: 1.2rem;
+    }
+    
+    .concept-definition,
+    .cotidiano-example {
+        font-size: 1rem;
+    }
+    
+    .review-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .visual-review-container {
+        padding: 15px;
+    }
+    
+    .concept-section,
+    .cotidiano-section {
+        padding: 15px;
+    }
+    
+    .cotidiano-example {
+        padding: 12px;
+    }
+}
+
+/* Efeitos especiais para cada unidade */
+.unit-1 .visual-review-card:hover {
+    box-shadow: 0 15px 35px rgba(74, 144, 226, 0.3);
+}
+
+.unit-2 .visual-review-card:hover {
+    box-shadow: 0 15px 35px rgba(126, 211, 33, 0.3);
+}
+
+.unit-3 .visual-review-card:hover {
+    box-shadow: 0 15px 35px rgba(245, 166, 35, 0.3);
+}
+
+.unit-4 .visual-review-card:hover {
+    box-shadow: 0 15px 35px rgba(144, 19, 254, 0.3);
+}
+
+.unit-5 .visual-review-card:hover {
+    box-shadow: 0 15px 35px rgba(80, 227, 194, 0.3);
+}
+
+.unit-6 .visual-review-card:hover {
+    box-shadow: 0 15px 35px rgba(65, 117, 5, 0.3);
+}
+
